@@ -1,0 +1,103 @@
+.columnleft {
+  width: 50%;
+  max-width: 40rem;
+}
+
+.bookcontainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 40rem;
+  padding: 1rem;
+  z-index: 1;
+  align-self: flex-start;
+  gap: 1rem;
+}
+
+.bookinfo {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.bookcontent {
+    padding: 0.5rem;
+    background: #ebe6e2;
+}
+
+
+.pagetitle {
+  display: inline;
+  background: black;
+  color: white;
+  padding: .5rem;
+  padding-right: 100vw; /* Push background to the right */
+  margin-right: -100vw; /* Pull text back so it’s visually aligned */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  line-height: 1.6;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.imgcontainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: auto; 
+  min-height: 100%;
+  max-width: 50rem;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, black 80%, transparent 97%);
+  -webkit-mask-image: linear-gradient(to right, black 80%, transparent 97%);
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.bookimg {
+  display: none;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.post {
+  background-color: lightgrey;
+	padding: .7rem;
+	border-radius: .4rem;
+}
+
+.post p {
+  font-family: Agara;
+}
+
+@media screen and (max-width: 1024px){
+.pagetitle {
+  padding-right: 1rem; /* Push background to the right */
+  margin-right: -1rem; /* Pull text back so it’s visually aligned */
+}
+  .imgcontainer {
+  max-width: 100%;
+  mask-image: none;
+  -webkit-mask-image: none;
+  height: 100%;
+  width: 100%;
+}
+  .columnleft {
+  width: 30%;
+}
+
+.bookcontainer {
+  max-width: 100%;
+}
+
+}
+  
+@media screen and (max-width: 430px){
+   .columnleft {
+  display: none;
+}
+}

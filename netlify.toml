@@ -1,0 +1,17 @@
+# netlify.toml
+[build]
+  publish = "_site"
+  command = "bundle exec jekyll build"
+
+[build.environment]
+  RUBY_VERSION = "3.3.0"
+  JEKYLL_ENV = "production"
+  BUNDLE_WITHOUT = "development"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
