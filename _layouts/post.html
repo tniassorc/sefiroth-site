@@ -17,10 +17,13 @@
         <h1 class="pagetitle">{{ page.title }}</h1>
       </div>
       <div class="bookcontent">
-        {{ content }}
-      </div>
-    </div>
-  </main>
-  {% include footer.html %}
+        {% if page.image %}
+       <img src="{{ page.image | relative_url }}" alt="{{ page.title }} image">
+       {% endif %}
+       {{ content }}
+     </div>
+   </div>
+ </main>
+ {% include footer.html %}
 </body>
 </html>

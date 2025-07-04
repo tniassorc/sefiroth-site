@@ -74,6 +74,11 @@
   font-family: Agara;
 }
 
+.post img, .bookcontent img {
+  max-width: 100%;
+  max-height: 30rem;
+}
+
 @media screen and (max-width: 1024px){
 .pagetitle {
   padding-right: 1rem; /* Push background to the right */
