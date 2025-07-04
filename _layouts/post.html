@@ -7,14 +7,14 @@
 <body>
   {% include header.html %}
   <main>
-    <div class="imgcontainer" style="background-image: url('{{ '/resources/images/{{ page.categories[0] }}.png' | relative_url }}')">
+    <div class="imgcontainer" style="background-image: url('/resources/images/{{ page.categories[0] }}.png')">
       <!-- <img class="bookimg" src="{{ page.backimage | relative_url }}" alt="{{ page.title }} image"> -->
     </div>
     <div class="columnleft">
     </div>
     <div class="bookcontainer">
       <div class="bookinfo">
-        <h1 class="pagetitle"> {{ page.title }} </h1>
+        <h1 class="pagetitle">{{ page.title }}</h1>
       </div>
       <div class="bookcontent">
         {{ content }}

@@ -9,7 +9,7 @@ authors: "Pier Paolo Pasolini / Fabien Vitali"
 authors-short: "Pasolini/Vitali"
 backimage: /resources/images/book01.png
 shorttext: "Florenz, Spätsommer 1975. Pasolini verteidigt seine Thesen zum Konsumfaschismus. Doch seine Rede bricht aus ihren pessimistischen Bahnen aus. In seinem Essay pointiert Fabien Vitali die dialektische Kraft in Pasolinis Kulturkritik. Und liest sie neu, als Geste des Widerspruchs – als Suche nach einem anderen gesellschaftlichen Selbst."
-shoplink: "www.gadak.de/gdak-shop"
+shoplink: "https://www.gadak.de/gdak-shop"
 
 ---
 

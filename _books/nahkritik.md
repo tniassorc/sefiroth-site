@@ -9,7 +9,7 @@ authors: "Maurice Blanchot / Shaul Setter"
 authors-short: "Blanchot/Setter"
 backimage: /resources/images/book02.png
 shorttext: "Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, der die Dunkelheit fehlt, ohne dass das Licht sie erhellt"
-shoplink: "www.gadak.de/gdak-shop"
+shoplink: "https://www.gadak.de/gdak-shop"
 
 ---
 
