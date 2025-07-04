@@ -12,41 +12,26 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }  # This line forces layout: post
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "image", required: false }
-
-
-
-# collections:
-#   - name: "posts"
-#     label: "Blog Posts"
-#     folder: "_posts"
-#     create: true
-#     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-#     fields:
-#       - { label: "Layout", name: "layout", widget: "hidden", default: "post" } 
-#       - { label: "Titel", name: "title", widget: "string" }
-#       - { label: "Buch", name: "categories", widget: "string" }
-#       - { label: "Veröffentlichungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
-#       - { label: "Text", name: "body", widget: "markdown" }
-#       - { label: "Bild", name: "image", widget: "image", required: false }
-#   - name: "books"
-#     label: "Bücher"
-#     folder: "_books"
-#     create: false
-#     slug: "{{slug}}"
-#     fields:
-#       - { label: "Layout", name: "layout", widget: "hidden", default: "book" } 
-#       - { label: "Titel", name: "title", widget: "string" }
-#       - { label: "Erstellungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
-#       - { label: "Buch", name: "categories", widget: "string" }
-#       - { label: "Autoren", name: "authors", widget: "string" }
-#       - { label: "Autoren Kurz", name: "authors-short", widget: "string" }
-#       - { label: "Kurzbeschreibung", name: "shorttext", widget: "string" }
-#       - { label: "Veröffentlichungsdatum", name: "published", widget: "string" }
-#       - { label: "Text", name: "body", widget: "markdown" }
-#       - { label: "Cover", name: "image", widget: "image", required: true }
-#       - { label: "Hintergrundbild/Coverbild", name: "backimage",  widget: "image", required: true }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" } 
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Buch", name: "categories", widget: "string" }
+      - { label: "Veröffentlichungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
+      - { label: "Text", name: "body", widget: "markdown" }
+      - { label: "Bild", name: "image", widget: "image", required: false }
+  - name: "books"
+    label: "Bücher"
+    folder: "_books"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "book" } 
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Erstellungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
+      - { label: "Buch", name: "categories", widget: "string" }
+      - { label: "Autoren", name: "authors", widget: "string" }
+      - { label: "Autoren Kurz", name: "authors-short", widget: "string" }
+      - { label: "Kurzbeschreibung", name: "shorttext", widget: "string" }
+      - { label: "Veröffentlichungsdatum", name: "published", widget: "string" }
+      - { label: "Text", name: "body", widget: "markdown" }
+      - { label: "Cover", name: "image", widget: "image", required: true }
+      - { label: "Hintergrundbild/Coverbild", name: "backimage",  widget: "image", required: true }
