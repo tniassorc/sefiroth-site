@@ -3,10 +3,12 @@ layout: post
 title: Marginalia 1
 categories: book02
 date: 2025-07-04T15:10:00
-image: /resources/images/uploads/sa-mesa-onde3.jpg
+image: ""
 ---
 **Zur Frage der Adjektive**
 
-lmkdbfirwbvrb lfzbvgf *zobcjhbjh* bKSDJ\
-dffgewrFERg\
-ggggcfgxfdydsycxc. vvb. b.
+gghfghjsvchjv\
+bvbhvbsbvhk\
+vhgrvh
+
+![Sa Mesa](/resources/images/uploads/sa-mesa-onde3.jpg "Sa Mesa")
