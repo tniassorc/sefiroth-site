@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main  # Ensure this matches your main branch in the Git repo
 
-media_folder: "resources/images"  # Where uploaded images for blog posts go
-public_folder: "/resources/images"  # Public URL of uploaded images
+media_folder: "resources/images/uploads"  # Where uploaded images for blog posts go
+public_folder: "/resources/images/uploads"  # Public URL of uploaded images
 
 collections:
   - name: "posts"
@@ -18,3 +18,20 @@ collections:
       - { label: "Veröffentlichungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
       - { label: "Text", name: "body", widget: "markdown" }
       - { label: "Bild", name: "image", widget: "image", required: false }
+  - name: "books"
+    label: "Bücher"
+    folder: "_books"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "book" } 
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Erstellungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
+      - { label: "Buch", name: "categories", widget: "string" }
+      - { label: "Autoren", name: "authors", widget: "string" }
+      - { label: "Autoren Kurz", name: "authors-short", widget: "string" }
+      - { label: "Kurzbeschreibung", name: "shorttext", widget: "string" }
+      - { label: "Veröffentlichungsdatum", name: "published", widget: "string" }
+      - { label: "Text", name: "body", widget: "markdown" }
+      - { label: "Cover", name: "image", widget: "image", required: true }
+      - { label: "Hintergrundbild/Coverbild", name: "backimage",  widget: "image", required: true }

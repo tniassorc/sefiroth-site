@@ -55,6 +55,17 @@
 <div id="idlePrompt" class="idle-prompt">
   Tippe auf das <em>Sefiroth</em>-Logo, um etwas über diese Seite zu erfahren, oder auf eine farbige <em>Sefirah</em>, um mehr zu entdecken.
 </div>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
 
