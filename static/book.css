@@ -1,13 +1,12 @@
 .columnleft {
   width: 50%;
-  max-width: 40rem;
+  max-width: 50rem;
 }
 
 .bookcontainer {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  max-width: 40rem;
+width: 50%;
   padding: 1rem;
   z-index: 1;
   align-self: flex-start;
@@ -46,7 +45,7 @@
   left: 0;
   height: auto; 
   min-height: 100%;
-  max-width: 50rem;
+  max-width: 60rem;
   overflow: hidden;
   mask-image: linear-gradient(to right, black 80%, transparent 97%);
   -webkit-mask-image: linear-gradient(to right, black 80%, transparent 97%);
@@ -70,8 +69,12 @@
 	border-radius: .4rem;
 }
 
-.post p, .bookcontent p {
+.post p {
   font-family: Agara;
+  padding-bottom: 0.5rem;
+}
+
+.bookcontent p {
   padding-bottom: 0.5rem;
 }
 
