@@ -14,5 +14,4 @@ shoplink: "https://www.gadak.de/gdak-shop"
 ---
 
 <p>Florenz, 6. September 1975. Am runden Tisch der Festa dell’Unità verteidigt Pasolini seine Thesen zum Konsumfaschismus. Doch etwas an jenem Abend lässt seine Rede aus ihren pessimistischen Bahnen ausbrechen. Überwältigt von der Präsenz zahlreicher Jugendlicher, »Träger einer lebendigen Kultur der Freiheit«, äußert er die Vermutung, dass das negative Bild, das er sich in den letzten Jahren von der Gegenwart gemacht hatte, widerlegt werden könne.</p>
-<br>
 <p>In der Bereitschaft Pasolinis, sich und seine Thesen öffentlich zur Diskussion zu stellen, kommt ein dialektisches Moment zur Geltung, das auch in den düstersten seiner Reden zur anthropologischen Mutation wie ein Irrlicht aufscheint. Der Literaturwissenschaftler Fabien Vitali zeigt in seinem Essay, dass Pasolinis Kulturkritik nicht allein auf der Wortebene zu begreifen ist, sondern im Rahmen einer Praxis des Dialogs und der Erfahrung des Anderen. Als solche liest Vitali sie neu: als performative Geste des Widerspruchs, als »Brüskierung festgefahrener Denkordnungen« – und stellt die Frage nach den Möglichkeiten eines anderen gesellschaftlichen Selbst.</p>

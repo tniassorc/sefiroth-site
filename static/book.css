@@ -70,8 +70,9 @@
 	border-radius: .4rem;
 }
 
-.post p {
+.post p, .bookcontent p {
   font-family: Agara;
+  padding-bottom: 0.5rem;
 }
 
 .post img, .bookcontent img {
