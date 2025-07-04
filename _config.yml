@@ -64,3 +64,4 @@ translations:
 collections:
   books:
     output: true
+excerpt_separator: "<!--more-->"
