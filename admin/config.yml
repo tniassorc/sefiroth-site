@@ -17,7 +17,6 @@ collections:
       - { label: "Buch", name: "categories", widget: "string" }
       - { label: "Veröffentlichungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
       - { label: "Text", name: "body", widget: "markdown" }
-      - { label: "Bild", name: "image", widget: "image", required: false }
   - name: "books"
     label: "Bücher"
     folder: "_books"
@@ -35,3 +34,22 @@ collections:
       - { label: "Text", name: "body", widget: "markdown" }
       - { label: "Cover", name: "image", widget: "image", required: true }
       - { label: "Hintergrundbild/Coverbild", name: "backimage",  widget: "image", required: true }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Über Sefiroth"
+        name: "about"
+        file: "about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Text", name: "body", widget: "markdown" }
+      - label: "Home"
+        name: "home"
+        file: "index.md"
+        fields:
+          - { label: "Text", name: "body", widget: "markdown" }
+      - label: "Impressum"
+        name: "impressum"
+        file: "impressum.md"
+        fields:
+          - { label: "Text", name: "body", widget: "markdown" }

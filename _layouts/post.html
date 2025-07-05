@@ -17,9 +17,6 @@
         <h1 class="pagetitle">{{ page.title }}</h1>
       </div>
       <div class="bookcontent">
-        {% if page.image %}
-       <img src="{{ page.image | relative_url }}" alt="{{ page.title }} image">
-       {% endif %}
        {{ content }}
      </div>
    </div>
