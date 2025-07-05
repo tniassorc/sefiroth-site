@@ -1,8 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   {% include head.html %}
-  <link rel="stylesheet" href="{{ '/static/book.css' | relative_url }}">
 </head>
 <body>
   {% include header.html %}
@@ -21,7 +20,7 @@
       <div class="bookcontent">
         {{ content }}
         <br>
-        <a href="{{ page.shoplink }}">Buch kaufen</a>
+        <a href="{{ page.shoplink }}" target="_blank" rel="noopener noreferrer">Buch kaufen</a>
       </div>
       {% for post in site.posts %}
       {% for category in page.categories %}

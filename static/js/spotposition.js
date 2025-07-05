@@ -32,6 +32,8 @@ function updateSpotPositions() {
     el.style.left = `${left}px`;
     el.style.top = `${top}px`;
     el.style.width = `${width}px`;
+
+    el.classList.add('visible');
   }
 }
 
