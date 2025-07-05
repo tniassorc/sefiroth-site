@@ -1,10 +1,17 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+<p>*Sefirah* ist ein Begriff aus der jüdischen Mystik. Er bezeichnet eine von zehn korrelierten Sphären – die *Sefiroth*:
+ ein »Urbild der Schöpfung« (Gershom Scholem), welches deren tiefste 
+Geheimnisse enthält und erfahrbar werden lässt als überwältigendes 
+Anderes, das immer wieder neu zu begreifen ist. Der mystischen 
+Tradition, von der sie sich ihren Namen borgt, folgt unsere Verlagsreihe
+ im Sinne einer Denkfigur: Jede Ausgabe versteht sich als Teilfunktion 
+eines unbestimmten, dynamischen Ganzen; jede Ausgabe schreibt sich der 
+Herausforderung ein, den Weltzustand nicht aus den bestehenden Sprach- 
+und Begriffsordnungen, sondern über diese hinaus, also *anders* zu erschließen.
 
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+</p>
 <br>
 <p><em>Die Welt stellt mir hinterlistige Fragen. Meine Wörter antworten ihr offenherzig mit Fragen.</em> (Rose Ausländer)</p>
