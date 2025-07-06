@@ -26,8 +26,7 @@
         <h3 class="collapsible"><a>{{ post.title }}</a></h3>
         <div class="ccontent">
           {{ post.content }}
-        </div>
-        {% if post.audio %}
+               {% if post.audio %}
      <audio controls>
       <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -39,6 +38,8 @@
           Your browser does not support the video tag.
         </video> 
         {% endif %}
+        </div>
+
       </div>
       {% endif %}
       {% endfor %}
