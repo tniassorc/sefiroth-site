@@ -31,7 +31,7 @@
         {% assign german_month = site.translations.months[month] %}
         <em>{{ post.date | date: "%d" }}. {{ german_month }} {{ post.date | date: "%Y" }}</em>
         <br><br>
-        {{ post.excerpt }}
+        <div>{{ post.excerpt }}</div>
         {% assign content_paragraphs = post.content | split: '<p>' | size %}
         {% assign excerpt_paragraphs = post.excerpt | split: '<p>' | size %}
         {% if content_paragraphs > excerpt_paragraphs %}
