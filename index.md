@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<p>*Sefirah* ist ein Begriff aus der jüdischen Mystik. Er bezeichnet eine von zehn korrelierten Sphären – die *Sefiroth*:
+*Sefirah* ist ein Begriff aus der jüdischen Mystik. Er bezeichnet eine von zehn korrelierten Sphären – die *Sefiroth*:
  ein »Urbild der Schöpfung« (Gershom Scholem), welches deren tiefste 
 Geheimnisse enthält und erfahrbar werden lässt als überwältigendes 
 Anderes, das immer wieder neu zu begreifen ist. Der mystischen 
@@ -11,7 +11,4 @@ eines unbestimmten, dynamischen Ganzen; jede Ausgabe schreibt sich der
 Herausforderung ein, den Weltzustand nicht aus den bestehenden Sprach- 
 und Begriffsordnungen, sondern über diese hinaus, also *anders* zu erschließen.
 
-
-</p>
-<br>
-<p><em>Die Welt stellt mir hinterlistige Fragen. Meine Wörter antworten ihr offenherzig mit Fragen.</em> (Rose Ausländer)</p>
+*Die Welt stellt mir hinterlistige Fragen. Meine Wörter antworten ihr offenherzig mit Fragen.* (Rose Ausländer)
