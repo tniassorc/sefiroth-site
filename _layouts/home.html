@@ -41,14 +41,14 @@
       <div class="bookcontent">
        <p>{{ book.shorttext }}</p>
        <br>
-       <b> Klick in die Sefirah für Mehr </b>
+       <a href="{{ book.url | relative_url }}">Mehr</a>
     </div>
     </div>
     {% endfor %}
     <div class="sefiinfo bookcontent">        
       {{ page.content }}
       <br>
-      <a href="{{ '/about' | relative_url }}"> Mehr zum Reihentitel »Sefiroth«</a>
+      <a href="{{ '/about' | relative_url }}">Mehr</a>
     </div>
   </div>
   {% include footer.html %}

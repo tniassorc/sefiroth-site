@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: page_about
 title: Über »Sefiroth«
 permalink: /about/
 backimage: /resources/images/sefiroth-tree.png
+categories: about
 
 ---
 

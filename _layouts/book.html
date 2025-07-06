@@ -29,25 +29,34 @@
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {% assign month = post.date | date: "%B" %}
         {% assign german_month = site.translations.months[month] %}
-        <p><em>{{ post.date | date: "%d" }}. {{ german_month }} {{ post.date | date: "%Y" }}</em></p>
-        {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }} image">
-        {% endif %}
-        <br>
-        <p>{{ post.excerpt }}</p>
+        <em>{{ post.date | date: "%d" }}. {{ german_month }} {{ post.date | date: "%Y" }}</em>
+        <br><br>
+        {{ post.excerpt }}
         {% assign content_paragraphs = post.content | split: '<p>' | size %}
-          {% assign excerpt_paragraphs = post.excerpt | split: '<p>' | size %}
-            {% if content_paragraphs > excerpt_paragraphs %}
-            <br>
-            <a href="{{ post.url | relative_url}}">Weiterlesen...</a>
-            {% endif %}
-          </div>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </div>
-      </main>
-      {% include footer.html %}
-    </body>
-    </html>
+        {% assign excerpt_paragraphs = post.excerpt | split: '<p>' | size %}
+        {% if content_paragraphs > excerpt_paragraphs %}
+        <br>
+        <a href="{{ post.url | relative_url}}">Weiterlesen...</a>
+        {% endif %}
+        {% if post.audio %}
+     <audio controls>
+      <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
+        Your browser does not support this audio element.
+      </audio> 
+      {% endif %}
+      {% if post.video %}
+      <video controls>
+        <source src="{{ post.video | relative_url }}" type="video/mp4">
+          Your browser does not support this video element.
+        </video> 
+        {% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>
 

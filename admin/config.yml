@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main  # Ensure this matches your main branch in the Git repo
 
-media_folder: "resources/images/uploads"  # Where uploaded images for blog posts go
-public_folder: "/resources/images/uploads"  # Public URL of uploaded images
+media_folder: "resources/uploads"  # Where uploaded images for blog posts go
+public_folder: "/resources/uploads"  # Public URL of uploaded images
 
 collections:
   - name: "posts"
@@ -17,6 +17,8 @@ collections:
       - { label: "Buch", name: "categories", widget: "string" }
       - { label: "Veröffentlichungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
       - { label: "Text", name: "body", widget: "markdown" }
+      - { label: "Audio", name: "audio", widget: "file" }
+      - { label: "Video", name: "video", widget: "file" }
   - name: "books"
     label: "Bücher"
     folder: "_books"

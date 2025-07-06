@@ -2,7 +2,6 @@
 <html lang="de">
 <head>
   {% include head.html %}
-  <link rel="stylesheet" href="{{ '/static/book.css' | relative_url }}">
 </head>
 <body>
   {% include header.html %}
@@ -19,8 +18,20 @@
       <div class="bookcontent">
        {{ content }}
      </div>
-   </div>
- </main>
- {% include footer.html %}
-</body>
-</html>
+     {% if post.audio %}
+     <audio controls>
+      <source src="{{ page.audio | relative_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio> 
+      {% endif %}
+      {% if post.video %}
+      <video controls>
+        <source src="{{ page.video | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video> 
+        {% endif %}
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+  </html>

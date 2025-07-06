@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+  {% include head.html %}
+  <script src="{{ '/static/js/collapsible.js' | relative_url }}"></script>
+</head>
+<body>
+  {% include header.html %}
+  <main>
+    <div class="imgcontainer" style="background-image: url('{{ page.backimage | relative_url }}')">
+      <!-- <img class="bookimg" src="{{ page.backimage | relative_url }}" alt="{{ page.title }} image"> -->
+    </div>
+    <div class="columnleft">
+    </div>
+    <div class="bookcontainer">
+      <div class="bookinfo">
+        <h1 class="pagetitle"> {{ page.title }} </h1>
+      </div>
+      <div class="bookcontent">
+        {{ content }}
+      </div>
+      {% for post in site.posts %}
+      {% for category in page.categories %}
+      {% if post.categories contains category %}
+      <div class="aboutpost post">
+        <h3 class="collapsible"><a>{{ post.title }}</a></h3>
+        <div class="ccontent">
+          <p>{{ post.content }}</p>
+        </div>
+        {% if post.audio %}
+     <audio controls>
+      <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio> 
+      {% endif %}
+      {% if post.video %}
+      <video controls>
+        <source src="{{ post.video | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video> 
+        {% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>
+
