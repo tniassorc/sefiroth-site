@@ -1,7 +1,7 @@
 ---
 layout: post
 title: media test
-categories: sefiroth
+categories: about
 date: now
 audio: /resources/uploads/friss-die-bullen.mp3
 video: /resources/uploads/crazyglitch.mp4
