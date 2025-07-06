@@ -65,3 +65,4 @@ collections:
   books:
     output: true
 excerpt_separator: "<!--more-->"
+markdown: kramdown
