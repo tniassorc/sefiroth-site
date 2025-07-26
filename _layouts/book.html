@@ -23,7 +23,9 @@
         {% if page.vorschau-pdf %}
         <a href="{{ page.vorschau-pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Vorschau</a><br>
         {% endif %}
+        {% if page.shoplink %}
         <a href="{{ page.shoplink }}" target="_blank" rel="noopener noreferrer">Buch kaufen</a>
+        {% endif %}
       </div>
       {% for post in site.posts %}
       {% for category in page.categories %}
