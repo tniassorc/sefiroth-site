@@ -1,17 +1,20 @@
 ---
-
 layout: book
-title: "Widersprechen"
-image: /resources/images/cover-pasolini.jpg
+title: Widersprechen
+date: 2025-07-26T17:07:00
 categories: book01
-published: "Mai 2025"
-authors: "Pier Paolo Pasolini / Fabien Vitali"
-authors-short: "Pasolini/Vitali"
-backimage: /resources/images/book01.png
-shorttext: "Florenz, Spätsommer 1975. Pasolini verteidigt seine Thesen zum Konsumfaschismus. Doch seine Rede bricht aus ihren pessimistischen Bahnen aus. In seinem Essay pointiert Fabien Vitali die dialektische Kraft in Pasolinis Kulturkritik. Und liest sie neu, als Geste des Widerspruchs – als Suche nach einem anderen gesellschaftlichen Selbst."
-shoplink: "https://www.gadak.de/gdak-shop"
+authors: Pier Paolo Pasolini / Fabien Vitali
+authors-short: Pasolini/Vitali
+shorttext: Florenz, Spätsommer 1975. Pasolini verteidigt seine Thesen zum
+  Konsumfaschismus. Doch seine Rede bricht aus ihren pessimistischen Bahnen aus.
+  In seinem Essay pointiert Fabien Vitali die dialektische Kraft in Pasolinis
+  Kulturkritik. Und liest sie neu, als Geste des Widerspruchs – als Suche nach
+  einem anderen gesellschaftlichen Selbst.
+published: Mai 2025
 vorschau-pdf: /resources/uploads/Pasolini_Vitali_Vorschau.pdf
-
+shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
+image: /resources/images/cover-pasolini.jpg
+backimage: /resources/images/book01.png
 ---
 
 <p>Florenz, 6. September 1975. Am runden Tisch der Festa dell’Unità verteidigt Pasolini seine Thesen zum Konsumfaschismus. Doch etwas an jenem Abend lässt seine Rede aus ihren pessimistischen Bahnen ausbrechen. Überwältigt von der Präsenz zahlreicher Jugendlicher, »Träger einer lebendigen Kultur der Freiheit«, äußert er die Vermutung, dass das negative Bild, das er sich in den letzten Jahren von der Gegenwart gemacht hatte, widerlegt werden könne.</p>
