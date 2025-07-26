@@ -33,6 +33,8 @@ collections:
       - { label: "Autoren Kurz", name: "authors-short", widget: "string" }
       - { label: "Kurzbeschreibung", name: "shorttext", widget: "string" }
       - { label: "Veröffentlichungsdatum", name: "published", widget: "string" }
+      - { label: "Vorschau-PDF", name: "vorschau-pdf", widget: "file" }
+      - { label: "Shop-Link", name: "shoplink", widget: "string" }
       - { label: "Text", name: "body", widget: "markdown" }
       - { label: "Cover", name: "image", widget: "image", required: true }
       - { label: "Hintergrundbild/Coverbild", name: "backimage",  widget: "image", required: true }
