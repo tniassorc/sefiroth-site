@@ -238,6 +238,8 @@ footer {
 }
 
 .bookinfo {
+	position: sticky;
+	top: 0;
 	text-align: right;
 	flex-shrink: 0;
 }

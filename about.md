@@ -1,6 +1,6 @@
 ---
 layout: page_about
-title: Sefiroth
+title: Zur Reihe
 permalink: /about/
 backimage: /resources/images/sefiroth-tree.png
 categories: about

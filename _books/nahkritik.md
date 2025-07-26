@@ -10,6 +10,7 @@ authors-short: "Blanchot/Setter"
 backimage: /resources/images/book02.png
 shorttext: "Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, der die Dunkelheit fehlt, ohne dass das Licht sie erhellt"
 shoplink: "https://www.gadak.de/gdak-shop"
+vorschau-pdf: /resources/uploads/Blanchot_Setter_Vorschau.pdf
 
 ---
 

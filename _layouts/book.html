@@ -20,6 +20,9 @@
       <div class="bookcontent">
         {{ content }}
         <br>
+        {% if page.vorschau-pdf %}
+        <a href="{{ page.vorschau-pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Vorschau</a><br>
+        {% endif %}
         <a href="{{ page.shoplink }}" target="_blank" rel="noopener noreferrer">Buch kaufen</a>
       </div>
       {% for post in site.posts %}
