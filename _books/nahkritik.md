@@ -8,7 +8,7 @@ authors-short: Blanchot/Setter
 shorttext: Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, der die
   Dunkelheit fehlt, ohne dass das Licht sie erhellt
 published: Juli 2025
-vorschau-pdf: /resources/uploads/Blanchot_Setter_Vorschau.pdf
+vorschau-pdf: ""
 shoplink: ""
 image: /resources/images/cover-blanchot.jpg
 backimage: /resources/images/book02.png
