@@ -1,17 +1,17 @@
 ---
-
 layout: book
-title: "Nahkritik"
-image: /resources/images/cover-blanchot.jpg
+title: Nahkritik
+date: 2025-07-26T16:15:00
 categories: book02
-published: "Juli 2025"
-authors: "Maurice Blanchot / Shaul Setter"
-authors-short: "Blanchot/Setter"
-backimage: /resources/images/book02.png
-shorttext: "Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, der die Dunkelheit fehlt, ohne dass das Licht sie erhellt"
-shoplink: "https://www.gadak.de/gdak-shop"
+authors: Maurice Blanchot / Shaul Setter
+authors-short: Blanchot/Setter
+shorttext: Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, der die
+  Dunkelheit fehlt, ohne dass das Licht sie erhellt
+published: Juli 2025
 vorschau-pdf: /resources/uploads/Blanchot_Setter_Vorschau.pdf
-
+shoplink: ""
+image: /resources/images/cover-blanchot.jpg
+backimage: /resources/images/book02.png
 ---
 
 <p>»Wir stehen am Rande des Desasters, ohne es in dem, was kommt, verorten zu können: Es ist vielmehr schon längst vergangen, und dennoch stehen wir am Rand oder werden davon bedroht«, so Maurice Blanchot 1980 in Die Schrift des Desasters. In sprachgestisch auf ihren unnahbaren Gegenstand – das Desaster, den Holocaust – ausgerichteten Fragmenten sucht er nach einer Sprache, um die Erfahrung einer jede begriffliche Ordnung verstörenden Ur-Sache zu ergründen.</p>
