@@ -10,7 +10,7 @@ shorttext: Florenz, Spätsommer 1975. Pasolini verteidigt seine Thesen zum
   In seinem Essay pointiert Fabien Vitali die dialektische Kraft in Pasolinis
   Kulturkritik. Und liest sie neu, als Geste des Widerspruchs – als Suche nach
   einem anderen gesellschaftlichen Selbst.
-published: Mai 2025
+published: Juli 2025
 vorschau-pdf: /resources/uploads/Pasolini_Vitali_Vorschau.pdf
 shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
 image: /resources/images/cover-pasolini.jpg
