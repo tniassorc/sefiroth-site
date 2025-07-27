@@ -3,9 +3,7 @@ layout: post
 title: Zur Tradition der »Sefiroth«
 categories: about
 date: 2025-07-06T21:47:00
-audio: /resources/uploads/friss-die-bullen.mp3
-video: /resources/uploads/crazyglitch.mp4
+audio: /resources/uploads/sefiroth_mosheh_cordovero_1591.pdf
+video: /resources/uploads/sefiroth_chayyim_vital.pdf
 ---
-Urbild der Schöpfung
-
 #### Zur Tradition der »Sefiroth«
