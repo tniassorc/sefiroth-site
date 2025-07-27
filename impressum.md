@@ -8,8 +8,8 @@ backimage: /resources/images/sefiroth-tree.png
 <br>
 <hr>
 <br>
-<p>Konzeption und Leitung der Reihe <em>Sefiroth</em>:</p>\
-<br>\
+<p>Konzeption und Leitung der Reihe <em>Sefiroth</em>:</p>
+<br>
 <p>Fabien Vitali, Benjamin Fellmann<p>
 <br>
 <p>Verantwortlich für den Inhalt dieser Seite:</p>
@@ -18,7 +18,7 @@ backimage: /resources/images/sefiroth-tree.png
 <br>
 <p>Gaußstraße 60<br>D - 22765 Hamburg<br>Tel. +49-172-5256200</p>
 <br>
-<p>Mail: kh.dellwo\\[at]gadak.de<br>Mail: g.angheleddu\\[at]gadak.de</p>
+<p>Mail: kh.dellwo\\\[at]gadak.de<br>Mail: g.angheleddu\\\[at]gadak.de</p>
 <br>
 <p>Geschäftsführer:<br>Gabriella Angheleddu / Karl-Heinz Dellwo</p>
 <br>
