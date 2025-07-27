@@ -8,9 +8,8 @@ backimage: /resources/images/sefiroth-tree.png
 <br>
 <hr>
 <br>
-
-Konzeption und Leitung der Reihe *Sefiroth*: Fabien Vitali, Benjamin Fellmann\
-
+<p>Konzeption und Leitung der Reihe *Sefiroth*: Fabien Vitali, Benjamin Fellmann<p>
+<br>
 <p>Verantwortlich für den Inhalt dieser Seite:</p>
 <br>
 <p>Galerie der abseitigen Künste GbR</p>
