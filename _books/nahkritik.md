@@ -5,8 +5,12 @@ date: 2025-07-26T16:15:00
 categories: book02
 authors: Maurice Blanchot / Shaul Setter
 authors-short: Blanchot/Setter
-shorttext: Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, der die
-  Dunkelheit fehlt, ohne dass das Licht sie erhellt
+shorttext: '"Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, der
+  die Dunkelheit fehlt, ohne dass das Licht sie erhellt" (Maurice Blanchot). Im
+  Dialog mit Blanchots "Schrift des Desasters" (1980) stellt sich der
+  israelische Philosoph Shaul Setter dem Krieg in Gaza nach dem Massaker der
+  Hamas als einem unfassbaren Ereignis, das unsere Gewissheiten erschüttert und
+  das er als Symptom eines globalen Zusammenbruchs sieht.'
 published: Juli 2025
 vorschau-pdf: ""
 shoplink: ""
