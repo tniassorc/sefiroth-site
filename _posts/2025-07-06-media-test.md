@@ -7,3 +7,5 @@ audio: /resources/uploads/sefiroth_mosheh_cordovero_1591.pdf
 video: /resources/uploads/sefiroth_chayyim_vital.pdf
 ---
 #### Erläuterungen
+
+![](/resources/uploads/chayyim-vital-.jpg)
