@@ -17,6 +17,8 @@ collections:
       - { label: "Buch", name: "categories", widget: "string" }
       - { label: "Veröffentlichungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
       - { label: "Text", name: "body", widget: "markdown" }
+      - { label: "PDF (Verlinkt)", name: "pdf", widget: "file", required: false }
+      - { label: "PDF Link-Text", name: "pdftitle", widget: "string", required: false }
       - { label: "Audio", name: "audio", widget: "file", required: false }
       - { label: "Video", name: "video", widget: "file", required: false }
   - name: "books"
