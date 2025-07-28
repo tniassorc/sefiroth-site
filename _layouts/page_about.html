@@ -26,16 +26,19 @@
         <h3 class="collapsible"><a>{{ post.title }}</a></h3>
         <div class="ccontent">
           {{ post.content }}
-               {% if post.audio %}
-     <audio controls>
-      <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio> 
-      {% endif %}
-      {% if post.video %}
-      <video controls>
-        <source src="{{ post.video | relative_url }}" type="video/mp4">
-          Your browser does not support the video tag.
+        {% if post.pdf and post.pdf != "" %}
+        <a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a><br>
+        {% endif %}
+        {% if post.audio and post.audio != "" %}
+        <audio controls>
+          <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
+          Your browser does not support this audio element.
+        </audio> 
+        {% endif %}
+        {% if post.video and post.video != "" %}
+        <video controls>
+          <source src="{{ post.video | relative_url }}" type="video/mp4">
+          Your browser does not support this video element.
         </video> 
         {% endif %}
         </div>
