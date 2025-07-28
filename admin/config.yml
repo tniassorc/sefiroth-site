@@ -17,8 +17,8 @@ collections:
       - { label: "Buch", name: "categories", widget: "string" }
       - { label: "Veröffentlichungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
       - { label: "Text", name: "body", widget: "markdown" }
-      - { label: "Audio", name: "audio", widget: "file" }
-      - { label: "Video", name: "video", widget: "file" }
+      - { label: "Audio", name: "audio", widget: "file", required: false }
+      - { label: "Video", name: "video", widget: "file", required: false }
   - name: "books"
     label: "Bücher"
     folder: "_books"
