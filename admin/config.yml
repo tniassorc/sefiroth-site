@@ -49,6 +49,8 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Text", name: "body", widget: "markdown" }
+          - { label: "PDF (Verlinkt)", name: "pdf", widget: "file", required: false }
+          - { label: "PDF Link-Text", name: "pdftitle", widget: "string", required: false }
       - label: "Reihe"
         name: "reihe"
         file: "reihe.md"
