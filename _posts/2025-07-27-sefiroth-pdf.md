@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sefiroth PDF
-categories: about
+categories: reihe
 date: 2025-07-27 01:21:06 +0200
 ---
 

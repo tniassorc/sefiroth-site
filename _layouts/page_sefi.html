@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include header.html %}
+  <main>
+    <div class="imgcontainer" style="background-image: url('{{ page.backimage | relative_url }}')">
+      <!-- <img class="bookimg" src="{{ page.backimage | relative_url }}" alt="{{ page.title }} image"> -->
+    </div>
+    <div class="columnleft">
+    </div>
+    <div class="bookcontainer">
+      <div class="bookcontent">
+        {{ content }}
+      </div>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>
+

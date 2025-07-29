@@ -43,9 +43,9 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - label: "Über Sefiroth"
-        name: "about"
-        file: "about.md"
+      - label: "Reihe"
+        name: "reihe"
+        file: "reihe.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Text", name: "body", widget: "markdown" }

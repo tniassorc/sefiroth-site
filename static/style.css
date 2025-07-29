@@ -202,6 +202,10 @@ footer {
 	width: 30%;
 }
 
+.sefiinfo span {
+	padding-right: .3rem;
+}
+
 .idle-prompt {
 	position: fixed;
 	bottom: 50%;
@@ -270,7 +274,7 @@ footer {
 	left: 0;
 	height: auto; 
 	min-height: 100%;
-	max-width: 60rem;
+	max-width: 55rem;
 	overflow: hidden;
 	mask-image: linear-gradient(to right, black 80%, transparent 97%);
 	-webkit-mask-image: linear-gradient(to right, black 80%, transparent 97%);
