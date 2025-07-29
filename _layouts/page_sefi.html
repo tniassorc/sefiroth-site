@@ -16,9 +16,9 @@
         {{ content }}
         <hr>
         {% if page.pdf and page.pdf != "" %}
-        <a href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdftitle }}</a><br>
+        <p><a href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdftitle }}</a></p>
         {% endif %}
-        <a href="{{ '/reihe' | relative_url }}">Reihe</a>
+        <p><a href="{{ '/reihe' | relative_url }}">Reihe</a></p>
       </div>
     </div>
   </main>
