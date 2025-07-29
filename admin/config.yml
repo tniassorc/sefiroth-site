@@ -43,6 +43,12 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - label: "Sefiroth"
+        name: "sefiroth"
+        file: "sefiroth.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Text", name: "body", widget: "markdown" }
       - label: "Reihe"
         name: "reihe"
         file: "reihe.md"
