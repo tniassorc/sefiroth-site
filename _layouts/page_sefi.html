@@ -14,8 +14,9 @@
     <div class="bookcontainer">
       <div class="bookcontent">
         {{ content }}
-        {% if post.pdf and post.pdf != "" %}
-        <a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a><br>
+        <hr>
+        {% if page.pdf and page.pdf != "" %}
+        <a href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdftitle }}</a><br>
         {% endif %}
         <a href="{{ '/reihe' | relative_url }}">Reihe</a>
       </div>
