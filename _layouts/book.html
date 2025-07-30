@@ -27,6 +27,15 @@
         {% if page.shoplink and page.shoplink != "" %}
         <a href="{{ page.shoplink }}" target="_blank" rel="noopener noreferrer">Buch kaufen</a>
         {% endif %}
+        {% if page.pdf1 and page.pdf1 != "" %}
+        <a href="{{ page.pdf1 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf1title }}</a><br>
+        {% endif %}
+        {% if page.pdf2 and page.pdf2 != "" %}
+        <a href="{{ page.pdf2 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf2title }}</a><br>
+        {% endif %}
+        {% if page.pdf3 and page.pdf3 != "" %}
+        <a href="{{ page.pdf3 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf3title }}</a><br>
+        {% endif %}
       </div>
       {% for post in site.posts %}
       {% for category in page.categories %}

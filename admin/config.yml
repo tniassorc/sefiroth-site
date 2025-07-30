@@ -33,11 +33,17 @@ collections:
       - { label: "Buch", name: "categories", widget: "string" }
       - { label: "Autoren", name: "authors", widget: "string" }
       - { label: "Autoren Kurz", name: "authors-short", widget: "string" }
-      - { label: "Kurzbeschreibung", name: "shorttext", widget: "string" }
+      - { label: "Kurzbeschreibung (für Homepage)", name: "shorttext", widget: "string" }
+      - { label: "Text", name: "body", widget: "markdown" }
       - { label: "Veröffentlichungsdatum", name: "published", widget: "string" }
       - { label: "Vorschau-PDF", name: "vorschau-pdf", widget: "file", required: false }
       - { label: "Shop-Link", name: "shoplink", widget: "string", required: false }
-      - { label: "Text", name: "body", widget: "markdown" }
+      - { label: "PDF 1 (Verlinkt)", name: "pdf1", widget: "file", required: false }
+      - { label: "PDF 1 Link-Text", name: "pdf1title", widget: "string", required: false }
+      - { label: "PDF 2 (Verlinkt)", name: "pdf2", widget: "file", required: false }
+      - { label: "PDF 2 Link-Text", name: "pdf2title", widget: "string", required: false }
+      - { label: "PDF 3 (Verlinkt)", name: "pdf3", widget: "file", required: false }
+      - { label: "PDF 3 Link-Text", name: "pdf3title", widget: "string", required: false }
       - { label: "Cover", name: "image", widget: "image", required: true }
       - { label: "Hintergrundbild/Coverbild", name: "backimage",  widget: "image", required: true }
   - name: "pages"
