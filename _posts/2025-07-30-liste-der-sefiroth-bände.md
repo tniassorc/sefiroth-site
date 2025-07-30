@@ -2,7 +2,7 @@
 layout: post
 title: Liste der Sefiroth-Bände
 categories: reihe
-date: 2025-07-30T10:03:00
+date: 2025-07-30T10:00:00
 ---
 [Pasolini/Vitali: Widersprechen](/books/widersprechen/) Erschienen Juli 2025
 
