@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gestaltung
+title: Layout
 categories: reihe
 date: 2025-07-10T12:49:00
 audio: ""
