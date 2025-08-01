@@ -14,6 +14,7 @@ published: Juli 2025
 vorschau-pdf: /resources/uploads/Pasolini_Vitali_Vorschau.pdf
 shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
 pdf1: /resources/uploads/critica-marxista-5-6-2020.pdf
+pdf1title: "PDF Erstveröffentlichung "
 image: /resources/images/cover-pasolini.jpg
 backimage: /resources/images/book01.png
 ---
