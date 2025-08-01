@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Webseite
+title: Seite
 categories: reihe
 date: 2025-07-30T09:38:00
 ---
