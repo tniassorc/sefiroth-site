@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liste der Sefiroth-Bände
+title: Ausgaben
 categories: reihe
 date: 2025-07-30T10:00:00
 ---
