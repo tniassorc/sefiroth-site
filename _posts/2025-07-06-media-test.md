@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zur Tradition der »Sefiroth«
+title: סְְפִִירוֹת
 categories: reihe
 date: 2025-07-06T21:47:00
 pdf: /resources/uploads/sefiroth_mosheh_cordovero_1591.pdf
