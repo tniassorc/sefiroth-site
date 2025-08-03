@@ -25,7 +25,7 @@
         <a href="{{ page.vorschau-pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Vorschau</a><br>
         {% endif %}
         {% if page.shoplink and page.shoplink != "" %}
-        <a href="{{ page.shoplink }}" target="_blank" rel="noopener noreferrer">Buch kaufen</a>
+        <a href="{{ page.shoplink }}" target="_blank" rel="noopener noreferrer">Buch kaufen</a><br>
         {% endif %}
         {% if page.pdf1 and page.pdf1 != "" %}
         <a href="{{ page.pdf1 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf1title }}</a><br>
@@ -46,7 +46,7 @@
         {% assign german_month = site.translations.months[month] %}
         <em>{{ post.date | date: "%d" }}. {{ german_month }} {{ post.date | date: "%Y" }}</em>
         <br><br>
-        <div>{{ post.excerpt }}</div>
+        {{ post.excerpt }}
         {% assign content_paragraphs = post.content | split: '<p>' | size %}
         {% assign excerpt_paragraphs = post.excerpt | split: '<p>' | size %}
         {% if content_paragraphs > excerpt_paragraphs %}
