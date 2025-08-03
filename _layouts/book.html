@@ -37,41 +37,73 @@
         <a href="{{ page.pdf3 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf3title }}</a><br>
         {% endif %}
       </div>
-      {% for post in site.posts %}
-      {% for category in page.categories %}
+            {%- for post in site.posts -%}
+  {% if post.collapsible %}
+    {% for category in page.categories %}
       {% if post.categories contains category %}
-      <div class="post">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        {% assign month = post.date | date: "%B" %}
-        {% assign german_month = site.translations.months[month] %}
-        <em>{{ post.date | date: "%d" }}. {{ german_month }} {{ post.date | date: "%Y" }}</em>
-        <br><br>
-        {{ post.excerpt }}
-        {% assign content_paragraphs = post.content | split: '<p>' | size %}
-        {% assign excerpt_paragraphs = post.excerpt | split: '<p>' | size %}
-        {% if content_paragraphs > excerpt_paragraphs %}
-        <br>
-        <a href="{{ post.url | relative_url}}">Weiterlesen...</a>
-        {% endif %}
-        {% if post.pdf and post.pdf != "" %}
-        <a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a><br>
-        {% endif %}
-        {% if post.audio and post.audio != "" %}
-        <audio controls>
-          <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
-          Your browser does not support this audio element.
-        </audio> 
-        {% endif %}
-        {% if post.video and post.video != "" %}
-        <video controls>
-          <source src="{{ post.video | relative_url }}" type="video/mp4">
-          Your browser does not support this video element.
-        </video> 
-        {% endif %}
-      </div>
+        <div class="aboutpost post">
+          <h3 class="collapsible"><a>{{ post.title }}</a></h3>
+          <div class="ccontent">
+            {{ post.content }}
+            {% if post.pdf and post.pdf != "" %}
+              <a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a><br>
+            {% endif %}
+            {% if post.audio and post.audio != "" %}
+              <audio controls>
+                <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
+                Your browser does not support this audio element.
+              </audio> 
+            {% endif %}
+            {% if post.video and post.video != "" %}
+              <video controls>
+                <source src="{{ post.video | relative_url }}" type="video/mp4">
+                Your browser does not support this video element.
+              </video> 
+            {% endif %}
+          </div>
+        </div>
       {% endif %}
-      {% endfor %}
-      {% endfor %}
+    {% endfor %}
+  {% endif %}
+{%- endfor -%}
+
+{%- for post in site.posts -%}
+  {% unless post.collapsible %}
+    {% for category in page.categories %}
+      {% if post.categories contains category %}
+        <div class="post">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {% assign month = post.date | date: "%B" %}
+          {% assign german_month = site.translations.months[month] %}
+          <em>{{ post.date | date: "%d" }}. {{ german_month }} {{ post.date | date: "%Y" }}</em>
+          <br><br>
+          {{ post.excerpt }}
+          {% assign content_paragraphs = post.content | split: '<p>' | size %}
+          {% assign excerpt_paragraphs = post.excerpt | split: '<p>' | size %}
+          {% if content_paragraphs > excerpt_paragraphs %}
+            <br>
+            <a href="{{ post.url | relative_url }}">Weiterlesen...</a>
+          {% endif %}
+          {% if post.pdf and post.pdf != "" %}
+            <a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a><br>
+          {% endif %}
+          {% if post.audio and post.audio != "" %}
+            <audio controls>
+              <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
+              Your browser does not support this audio element.
+            </audio> 
+          {% endif %}
+          {% if post.video and post.video != "" %}
+            <video controls>
+              <source src="{{ post.video | relative_url }}" type="video/mp4">
+              Your browser does not support this video element.
+            </video> 
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endunless %}
+{%- endfor -%}
     </div>
   </main>
   {% include footer.html %}
