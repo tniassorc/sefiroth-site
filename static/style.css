@@ -200,6 +200,11 @@ footer {
 	justify-self: left;
 	max-width: 30rem;
 	width: 30%;
+	transition: width 0.2s ease-out;
+}
+
+.sefiinfo.active {
+	width: 50%;
 }
 
 .sefiinfo span {
@@ -350,16 +355,11 @@ audio {
 	width: 100%;
 	height: 30rem;
 }
-
+	
 @media screen and (max-width: 1024px){
 	.infobox .pagetitle {
 		font-size: 2.5rem;
 	}
-
-}
-	
-@media screen and (max-width: 1024px){
-	
 	.spot {
 		filter: none;
 	}

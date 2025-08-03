@@ -68,7 +68,9 @@ collections:
         name: "home"
         file: "index.md"
         fields:
+          - { label: "Kurztext", name: "first", widget: "markdown" }
           - { label: "Text", name: "body", widget: "markdown" }
+
       - label: "Impressum"
         name: "impressum"
         file: "impressum.md"
