@@ -2,6 +2,7 @@
 layout: post
 title: Seite
 categories: reihe
+collapsible: true
 date: 2025-07-30T09:38:00
 ---
 hier etwas über die website schreiben...
