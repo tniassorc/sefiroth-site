@@ -2,6 +2,7 @@
 layout: post
 title: Ausgaben
 categories: reihe
+collapsible: true
 date: 2025-08-01T09:01:00
 ---
 [Pasolini/Vitali: Widersprechen](/books/widersprechen/) Erschienen Juli 2025
