@@ -2,6 +2,7 @@
 layout: post
 title: Gestaltung
 categories: reihe
+collapsible: true
 date: 2025-07-10T12:49:00
 audio: ""
 video: /resources/uploads/grafica_sefiroth.mp4
