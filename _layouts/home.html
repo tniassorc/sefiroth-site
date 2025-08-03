@@ -7,11 +7,12 @@
   <script src="{{ '/static/js/infobox.js' | relative_url }}"></script>
   <script src="{{ '/static/js/appearonhover.js' | relative_url }}"></script>
   <script src="{{ '/static/js/idlePrompt.js' | relative_url }}"></script>
+  <script src="{{ '/static/js/logolink.js' | relative_url }}"></script>
 </head>
 <body>
   <div class="container">
     <header>
-      <a href="{{ '/sefiroth' | relative_url }}">
+      <a id="logolink" href="#" data-mobile-url="{{ '/sefiroth' | relative_url }}" data-desktop-url="{{ '/' | relative_url }}">
         <img class="textlogo sefirothlogo" src = "{{ '/resources/images/sefi-textlogo.svg' | relative_url }}"/>
       </a>
 <!--  <h2 class="booktitle" id="ti01"> 01: PASOLINI/VITALI </h2>
@@ -46,7 +47,7 @@
     {% endfor %}
     <div class="sefiinfo bookcontent">        
       {{ page.kurztext | markdownify }}
-      <p class="collapsible"><u>Mehr</u></p>
+      <p class="collapsible"><a><u>Mehr</u></a></p>
       <div class="ccontent">{{ content }}</div>
       <span><a href="{{ '/resources/uploads/manifesto.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Manifesto</a></span>
       <span><a href="{{ '/reihe' | relative_url }}">Reihe</a></span>

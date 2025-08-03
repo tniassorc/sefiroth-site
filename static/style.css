@@ -236,6 +236,10 @@ footer {
 	max-width: 50rem;
 }
 
+.seficontainer {
+	margin-top: 0;
+}
+
 .bookcontainer {
 	display: flex;
 	flex-direction: column;
@@ -347,7 +351,7 @@ audio {
   margin-left: .3rem;
 }
 
-.active:after {
+.collapsible.active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
@@ -382,6 +386,10 @@ audio {
 	.bookcontainer {
 		width: 100%;
 	}
+	
+	.seficontainer {
+	margin-top: 2.5rem;
+}
 }
 
 @media screen and (max-width: 430px){
@@ -409,4 +417,7 @@ audio {
 	.pagetitle {
 		font-size: 2.5rem;
 	}
+		.seficontainer {
+	margin-top: 0;
+}
 }
