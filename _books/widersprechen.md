@@ -11,7 +11,7 @@ shorttext: Florenz, Spätsommer 1975. Pasolini verteidigt seine Thesen zum
   Kulturkritik. Und liest sie neu, als Geste des Widerspruchs – als Suche nach
   einem anderen gesellschaftlichen Selbst.
 published: Juli 2025
-vorschau-pdf: /resources/uploads/Pasolini_Vitali_Vorschau.pdf
+vorschau-pdf: /resources/uploads/leseprobe_pasolini_vitali_innen.pdf
 shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
 pdf1: /resources/uploads/critica-marxista-5-6-2020.pdf
 pdf1title: Redebeitrag Italienisch
