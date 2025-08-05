@@ -12,7 +12,7 @@ shorttext: '"Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, de
   Hamas als einem unfassbaren Ereignis, das er als Symptom eines globalen
   Zusammenbruchs sieht.'
 published: Juli 2025
-vorschau-pdf: ""
+vorschau-pdf: /resources/uploads/leseprobe_blanchot_setter_innen.pdf
 shoplink: ""
 image: /resources/images/cover-blanchot.jpg
 backimage: /resources/images/book02.png
