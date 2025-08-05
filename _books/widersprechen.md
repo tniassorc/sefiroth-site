@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Widersprechen
-date: 2025-08-05T21:26:00
+date: 2025-08-05T21:30:00
 categories: book01
 authors: Pier Paolo Pasolini / Fabien Vitali
 authors-short: Pasolini/Vitali
