@@ -32,11 +32,13 @@ collections:
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Erstellungsdatum", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", picker_utc: true, default: "now" }
       - { label: "Buch", name: "categories", widget: "string" }
-      - { label: "Autoren", name: "authors", widget: "string" }
-      - { label: "Autoren Kurz", name: "authors-short", widget: "string" }
+      - { label: "Autor:innen", name: "authors", widget: "string" }
+      - { label: "Autor:innen Kurz", name: "authors-short", widget: "string" }
       - { label: "Kurzbeschreibung (für Homepage)", name: "shorttext", widget: "string" }
       - { label: "Text", name: "body", widget: "markdown" }
-      - { label: "Veröffentlichungsdatum", name: "published", widget: "string" }
+      - { label: "Bereits erschienen", name: "ispublished", widget: "boolean", default: false}
+      - { label: "Veröffentlichungsdatum", name: "published", widget: "string", required: false}
+      - { label: "Autor:innen Bio", name: "authorstext", widget: "markdown", required: false}
       - { label: "Vorschau-PDF", name: "vorschau-pdf", widget: "file", required: false }
       - { label: "Shop-Link", name: "shoplink", widget: "string", required: false }
       - { label: "PDF 1 (Verlinkt)", name: "pdf1", widget: "file", required: false }

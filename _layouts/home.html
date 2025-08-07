@@ -37,8 +37,6 @@
       </div>
       <!-- <img class="ibimage" src="{{ book.image | relative_url }}" alt="{{ book.title }} image"><br> -->
       <br>
-      <p class="bookcontent published">{{ book.published }}</p>
-      <br>
       <div class="bookcontent">
        <p>{{ book.shorttext }}</p>
        <a href="{{ book.url | relative_url }}">Mehr</a>
@@ -47,9 +45,9 @@
     {% endfor %}
     <div class="sefiinfo bookcontent">        
       {{ page.kurztext | markdownify }}
-      <p class="collapsible"><a><u>Mehr</u></a></p>
+      <p class="collapsibleh"><a><u>Mehr</u></a></p>
       <div class="ccontent">{{ content }}</div>
-      <span><a href="{{ '/resources/uploads/manifesto.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Manifesto</a></span>
+      <span><a href="{{ '/resources/uploads/manifesto.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Manifesto</a></span><br>
       <span><a href="{{ '/reihe' | relative_url }}">Reihe</a></span>
     </div>
   </div>

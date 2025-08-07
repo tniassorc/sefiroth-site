@@ -305,11 +305,16 @@ footer {
 	background-color: #d4cfcd;
 	padding: .7rem;
 	border-radius: .4rem;
+	font-family: agara, serif;
 }
 
 .post p {
 	font-family: Agara;
 	padding-bottom: 0.5rem;
+}
+
+.post em {
+		font-family: agara, serif;
 }
 
 .bookcontent p {
@@ -346,13 +351,24 @@ audio {
 }
 
  .collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '\02795';
   font-size: .9rem;
   margin-left: .3rem;
 }
 
 .collapsible.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796";
+}
+
+ .collapsibleh:after {
+  content: '\25B6';
+  font-size: .8rem;
+  margin-left: .3rem;
+}
+
+.collapsibleh.active:after {
+  content: "\25BC";
+	font-size: .87rem;
 }
 
 .pdfembed {

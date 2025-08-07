@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var coll = document.getElementsByClassName("collapsible");
+  var coll = document.querySelectorAll(".collapsible, .collapsibleh");
   var sefiinfo = document.querySelector(".sefiinfo"); // select the single element
 
   for (var i = 0; i < coll.length; i++) {
