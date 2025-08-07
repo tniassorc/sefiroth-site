@@ -10,7 +10,16 @@ shorttext: Florenz, Spätsommer 1975. Pasolini verteidigt seine Thesen zum
   In seinem Essay pointiert Fabien Vitali die dialektische Kraft in Pasolinis
   Kulturkritik. Und liest sie neu, als Geste des Widerspruchs – als Suche nach
   einem anderen gesellschaftlichen Selbst.
+ispublished: true
 published: Juli 2025
+authorstext: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+  clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+  kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 vorschau-pdf: /resources/uploads/leseprobe_pasolini_vitali_innen.pdf
 shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
 pdf1: /resources/uploads/critica-marxista-5-6-2020.pdf
