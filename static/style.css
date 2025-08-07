@@ -53,6 +53,7 @@ main {
 a {
 	color: black;
 	font-family: inherit;
+	text-decoration: underline;
 }
 
 a:hover {
@@ -314,7 +315,7 @@ footer {
 }
 
 .post em {
-		font-family: agara, serif;
+	font-family: agara, serif;
 }
 
 .bookcontent p {
@@ -329,45 +330,45 @@ h4 {
 	max-width: 100%;
 	max-height: 30rem;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 audio {
 	width: 100%;
 }
 
-.collapsible {
-  cursor: pointer;
+.collapsible, .collapsibleh {
+	cursor: pointer;
 }
 
 .active, .collapsible:hover {
 }
 
 .ccontent {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
 
- .collapsible:after {
-  content: '\02795';
-  font-size: .9rem;
-  margin-left: .3rem;
+.collapsible:after {
+	content: '\02795';
+	font-size: .9rem;
+	margin-left: .3rem;
 }
 
 .collapsible.active:after {
-  content: "\2796";
+	content: "\2796";
 }
 
- .collapsibleh:after {
-  content: '\25B6';
-  font-size: .8rem;
-  margin-left: .3rem;
+.collapsibleh:after {
+	content: '\25B6';
+	font-size: .8rem;
+	margin-left: .3rem;
 }
 
 .collapsibleh.active:after {
-  content: "\25BC";
+	content: "\25BC";
 	font-size: .87rem;
 }
 
@@ -375,7 +376,7 @@ audio {
 	width: 100%;
 	height: 30rem;
 }
-	
+
 @media screen and (max-width: 1024px){
 	.infobox .pagetitle {
 		font-size: 2.5rem;
@@ -404,8 +405,8 @@ audio {
 	}
 	
 	.seficontainer {
-	margin-top: 2.5rem;
-}
+		margin-top: 2.5rem;
+	}
 }
 
 @media screen and (max-width: 430px){
@@ -433,7 +434,7 @@ audio {
 	.pagetitle {
 		font-size: 2.5rem;
 	}
-		.seficontainer {
-	margin-top: 0;
-}
+	.seficontainer {
+		margin-top: 0;
+	}
 }
