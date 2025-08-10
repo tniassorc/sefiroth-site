@@ -362,13 +362,13 @@ audio {
 }
 
 .collapsibleh:after {
-	content: '\25B6';
+	content: '\25B6\FE0E';
 	font-size: .8rem;
 	margin-left: .3rem;
 }
 
 .collapsibleh.active:after {
-	content: "\25BC";
+	content: "\25BC\FE0E";
 	font-size: .87rem;
 }
 
