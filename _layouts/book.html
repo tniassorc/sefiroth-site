@@ -19,16 +19,15 @@
       </div>
       <div class="bookcontent">
         {{ content }}
-        <br>
         {% if page.published and page.published != "" %}
-          <span>
+          <p><span>
             {% if page.ispublished %}
               <span>Erschienen: </span>
             {% else %}
               <span>Erscheint: </span>
             {% endif %}
             <em>{{ page.published }}</em>
-          </span>
+          </span></p>
         {% endif %}
         {% if page.authorstext and page.authorstext != "" %}
           <p class="collapsibleh"><a>Autor:innen: <em>{{ page.authors }} </em></a></p>
