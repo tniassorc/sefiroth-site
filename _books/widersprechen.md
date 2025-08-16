@@ -12,14 +12,19 @@ shorttext: Florenz, Spätsommer 1975. Pasolini verteidigt seine Thesen zum
   einem anderen gesellschaftlichen Selbst.
 ispublished: true
 published: Juli 2025
-authorstext: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-  clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-  kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+authorstext: >-
+  Pier Paolo Pasolini (1922–1975), italienischer Dichter und Regisseur von
+  beispielloser Sensibilität für die politische Relevanz ästhetischer Fra-gen.
+  Als stets kontrovers diskutierter Künstler setzte er sich bewusst in Szene –
+  mit den Mitteln und dennoch als Antagonist einer alles bestim-menden
+  Kulturindustrie. Trotz seines frühen Parteiausschlusses blieb Pasolini
+  Anhänger des PCI, den er – oft im Streit mit der Parteiführung – als Garanten
+  eines gesellschaftlichen Anderen sah. Seine „skandalösen“ Thesen zum
+  Konsumfaschismus klingen bis heute im öffentlichen Diskurs nach – als populäre
+  und gleichsam unbequeme Figuren einer kulturkritischen Urszene. 
+
+
+  Fabien Vitali (*1978) promovierte an der Scuola Normale Superiore di Pisa zum essayistischen Werk von Giuseppe Tomasi di Lampedusa. Er lehrte an den Universitäten München, Hamburg und Kiel. Seine zahlreichen Arbeiten zu Pasolini umfassen die preisgekrönte Übersetzung und Kommentierung der Gespräche Pasolinis mit dem jüdischen Filmjournalisten Gideon Bachmann ([Pasolini-Bachmann. Gespräche 1963-1975](https://www.galerie-der-abseitigen-kuenste.de/publikation/vol-1-pasolini-bachmann-gespraeche-1963-1975-vol-2-bachmann-pasolini-kommentar-fabien), Hamburg, 2022). Zuletzt hat er die Dialoge Pasolinis mit den Leser:innen der kommunisti-schen Illustrierten »Vie Nuove« aus den 60ern ins Deutsche übertragen ([Berlin, Wagenbach, 2025](https://www.wagenbach.de/buecher/titel/1477-dialoge-mit-pasolini.html)).
 vorschau-pdf: /resources/uploads/leseprobe_pasolini_vitali_innen.pdf
 shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
 pdf1: /resources/uploads/critica-marxista-5-6-2020.pdf
