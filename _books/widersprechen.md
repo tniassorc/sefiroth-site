@@ -29,6 +29,8 @@ vorschau-pdf: /resources/uploads/leseprobe_pasolini_vitali_innen.pdf
 shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
 pdf1: /resources/uploads/483485660_1415978423156944_3908167189259680244_n.jpg
 pdf1title: Marginalia 1
+pdf2: /resources/uploads/cantaluccio_ripensando-pasolini_2015.pdf
+pdf2title: Marginalia 2
 image: /resources/images/cover-pasolini.jpg
 backimage: /resources/images/book01.png
 ---
