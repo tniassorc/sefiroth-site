@@ -3,7 +3,7 @@ layout: post
 title: 'Marginalia 3: "Liebesantrag" in Form eines Schmähgedichts'
 categories: book01
 collapsible: true
-date: now
+date: 2025-08-24T16:39:00
 ---
 *Noch sein bis heute immer wieder einseitig diskutiertes Schmähgedicht,* Die KPI an die Jugend!*, in dem \[Pasolini] seine vermeintliche Verachtung gegenüber der bürgerlichen Papa-Söhnchen-Revolte verdichtet, birgt, wie Massimo Recalcati schrieb, eine einzigartige* pars construens*…* (Der Zeit widersprechen, S. 63). 
 
