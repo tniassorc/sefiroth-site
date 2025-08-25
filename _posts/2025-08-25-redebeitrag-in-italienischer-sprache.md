@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redebeitrag in italienischer Sprache
-categories: book001
+categories: book01
 collapsible: true
 date: now
 pdf: /resources/uploads/critica_marxista_2020.pdf
