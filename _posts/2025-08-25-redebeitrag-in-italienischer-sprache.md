@@ -3,7 +3,7 @@ layout: post
 title: Redebeitrag italienische Originalversion
 categories: book01
 collapsible: false
-date: now
+date: 2025-08-25T17:45:00
 pdf: /resources/uploads/critica_marxista_2020.pdf
 pdftitle: Redebeitrag Pasolinis in it. Sprache (Critica Marxista, 2020)
 ---
