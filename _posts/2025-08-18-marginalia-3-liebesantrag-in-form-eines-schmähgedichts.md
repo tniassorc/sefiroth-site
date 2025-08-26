@@ -20,4 +20,4 @@ Wie wenig die Vulgata vom Studentenfeind und Polizeifreund zur historischen Wirk
 
 (Fabien Vitali; Übers. aus dem Italienischen F. V.)
 
-![](/resources/uploads/pasolini_vi_odio.jpg)
+![](/resources/uploads/pasolini.jpg.webp)
