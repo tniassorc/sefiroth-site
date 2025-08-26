@@ -20,4 +20,4 @@ Wie wenig die Vulgata vom Studentenfeind und Polizeifreund zur historischen Wirk
 
 (Fabien Vitali; Übers. aus dem Italienischen F. V.)
 
-![](/resources/uploads/pasolini.jpg.webp)
+![Unter dem redaktionellen, von Pasolini nicht autorisierten Titel "Liebe Studenten, ich hasse Euch!" wurde das Gedicht "Die KPI an die Jugend!" von der Wochenzeitschrift "Espresso" zum ersten Mal veröffentlicht](/resources/uploads/pasolini_vi_odio.jpg)
