@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seite
+title: Paratext
 categories: reihe
 collapsible: true
 date: 2025-07-30T09:38:00
