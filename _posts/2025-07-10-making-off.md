@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gestaltung
+title: Design
 categories: reihe
 collapsible: true
 date: 2025-07-10T12:49:00
