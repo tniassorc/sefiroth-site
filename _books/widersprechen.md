@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Widersprechen
-date: 2025-08-05T21:30:00
+date: 2025-08-27T19:55:00
 categories: book01
 authors: Pier Paolo Pasolini / Fabien Vitali
 authors-short: Pasolini/Vitali
@@ -27,8 +27,8 @@ authorstext: >-
   Fabien Vitali (*1978) promovierte an der Scuola Normale Superiore di Pisa zum essayistischen Werk von Giuseppe Tomasi di Lampedusa. Er lehrte an den Universitäten München, Hamburg und Kiel. Seine zahlreichen Arbeiten zu Pasolini umfassen die preisgekrönte Übersetzung und Kommentierung der Gespräche Pasolinis mit dem jüdischen Filmjournalisten Gideon Bachmann ([Pasolini-Bachmann. Gespräche 1963-1975](https://www.galerie-der-abseitigen-kuenste.de/publikation/vol-1-pasolini-bachmann-gespraeche-1963-1975-vol-2-bachmann-pasolini-kommentar-fabien), Hamburg, 2022). Zuletzt hat er die Dialoge Pasolinis mit den Leser:innen der kommunistischen Illustrierten »Vie Nuove« aus den 60ern ins Deutsche übertragen ([Berlin, Wagenbach, 2025](https://www.wagenbach.de/buecher/titel/1477-dialoge-mit-pasolini.html)).
 vorschau-pdf: /resources/uploads/leseprobe_pasolini_vitali_innen.pdf
 shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
-pdf1: ""
-pdf1title: ""
+pdf1: /resources/uploads/pasolini_6_9_75_festa_dell-_unità.pdf
+pdf1title: Originaltext (Italienisch)
 pdf2: ""
 pdf2title: ""
 image: /resources/images/cover-pasolini.jpg
