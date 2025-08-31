@@ -13,7 +13,7 @@ shorttext: Florenz, Spätsommer 1975. Pasolini verteidigt seine Thesen zum
 ispublished: true
 published: Juli 2025
 authorstext: >-
-  Pier Paolo Pasolini (1922–1975), italienischer Dichter und Regisseur von
+  *Pier Paolo Pasolini* (1922–1975), italienischer Dichter und Regisseur von
   beispielloser Sensibilität für die politische Relevanz ästhetischer Fragen.
   Als stets kontrovers diskutierter Künstler setzte er sich bewusst in Szene –
   mit den Mitteln und dennoch als Antagonist einer alles bestim-menden
@@ -24,7 +24,7 @@ authorstext: >-
   und gleichsam unbequeme Figuren einer kulturkritischen Urszene. 
 
 
-  Fabien Vitali (*1978) promovierte an der Scuola Normale Superiore di Pisa zum essayistischen Werk von Giuseppe Tomasi di Lampedusa. Er lehrte an den Universitäten München, Hamburg und Kiel. Seine zahlreichen Arbeiten zu Pasolini umfassen die preisgekrönte Übersetzung und Kommentierung der Gespräche Pasolinis mit dem jüdischen Filmjournalisten Gideon Bachmann ([Pasolini-Bachmann. Gespräche 1963-1975](https://www.galerie-der-abseitigen-kuenste.de/publikation/vol-1-pasolini-bachmann-gespraeche-1963-1975-vol-2-bachmann-pasolini-kommentar-fabien), Hamburg, 2022). Zuletzt hat er die Dialoge Pasolinis mit den Leser:innen der kommunistischen Illustrierten »Vie Nuove« aus den 60ern ins Deutsche übertragen ([Berlin, Wagenbach, 2025](https://www.wagenbach.de/buecher/titel/1477-dialoge-mit-pasolini.html)).
+  *Fabien Vitali* (*1978) promovierte an der Scuola Normale Superiore di Pisa zum essayistischen Werk von Giuseppe Tomasi di Lampedusa. Er lehrte an den Universitäten München, Hamburg und Kiel. Seine zahlreichen Arbeiten zu Pasolini umfassen die preisgekrönte Übersetzung und Kommentierung der Gespräche Pasolinis mit dem jüdischen Filmjournalisten Gideon Bachmann ([Pasolini-Bachmann. Gespräche 1963-1975](https://www.galerie-der-abseitigen-kuenste.de/publikation/vol-1-pasolini-bachmann-gespraeche-1963-1975-vol-2-bachmann-pasolini-kommentar-fabien), Hamburg, 2022). Zuletzt hat er die Dialoge Pasolinis mit den Leser:innen der kommunistischen Illustrierten »Vie Nuove« aus den 60ern ins Deutsche übertragen ([Berlin, Wagenbach, 2025](https://www.wagenbach.de/buecher/titel/1477-dialoge-mit-pasolini.html)).
 vorschau-pdf: /resources/uploads/leseprobe_pasolini_vitali_innen.pdf
 shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/widersprechen
 pdf1: /resources/uploads/pasolini_6_9_75_festa_dell_unita.pdf
