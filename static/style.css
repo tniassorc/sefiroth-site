@@ -351,23 +351,23 @@ audio {
 	transition: max-height 0.2s ease-out;
 }
 
-.collapsible:after {
+.collapsiblex:after {
 	content: '\02795';
 	font-size: .9rem;
 	margin-left: .3rem;
 }
 
-.collapsible.active:after {
+.collapsiblex.active:after {
 	content: "\2796";
 }
 
-.collapsibleh:after {
+.collapsibleh:after, .collapsible:after {
 	content: '\25B6\FE0E';
 	font-size: .8rem;
 	margin-left: .3rem;
 }
 
-.collapsibleh.active:after {
+.collapsibleh.active:after, .collapsible.active:after {
 	content: "\25BC\FE0E";
 	font-size: .87rem;
 }

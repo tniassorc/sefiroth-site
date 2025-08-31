@@ -30,12 +30,12 @@
           </span></p>
         {% endif %}
         {% if page.authorstext and page.authorstext != "" %}
-          <p class="collapsibleh"><a>Autor:innen: <em>{{ page.authors }} </em></a></p>
+          <span class="collapsibleh"><a>Autor:innen: <em>{{ page.authors }} </em></a></span><br>
           <div class="ccontent">
             {{ page.authorstext | markdownify }}
           </div>
         {% else %}
-          <p>Autor:innen: <em>{{ page.authors }}</em></p>
+          <span>Autor:innen: <em>{{ page.authors }}</em></span><br>
         {% endif %}
         {% if page.vorschau-pdf and page.vorschau-pdf != "" %}
         <a href="{{ page.vorschau-pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Vorschau</a><br>
