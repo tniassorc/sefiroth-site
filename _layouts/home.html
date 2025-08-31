@@ -31,9 +31,9 @@
     {% assign book = site.books %}
     {% for book in site.books %}
     <div class="infobox" id="{{ book.categories }}">        
-      <div class="bookinfo">
-        <h1 class="pagetitle"> {{ book.authors-short }}</h1><br>
-        <h1 class="pagetitle"> {{ book.title }} </h1>
+      <div class="homebookinfo">
+        <h1 class="homepagetitle"> {{ book.authors-short }}</h1><br>
+        <h1 class="homepagetitle"> {{ book.title }} </h1>
       </div>
       <!-- <img class="ibimage" src="{{ book.image | relative_url }}" alt="{{ book.title }} image"><br> -->
       <br>

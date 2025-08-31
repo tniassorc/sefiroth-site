@@ -4,6 +4,7 @@ title: 'Marginalia 3: "Liebesantrag" in Form eines Schmähgedichts'
 categories: book01
 collapsible: false
 date: 2025-08-24T16:39:00
+author: Fabien Vitali
 pdf: /resources/uploads/die_kpi_an_die_jugend.pdf
 pdftitle: '"Die KPI an die Jugend!" (aus: P. P. Pasolini, "Ketzererfahrungen",
   Übers. Reimar Klein, Hanser, 1979)'
@@ -18,6 +19,6 @@ Die Instrumentalisierung von Pasolinis Gedicht auf politischen Veranstaltungen s
 
 Wie wenig die Vulgata vom Studentenfeind und Polizeifreund zur historischen Wirklichkeit der Beziehungen Pasolinis mit der 68er passt, zeigt ein wunderbarer [Essay von Adriano Sofri](https://www.cittapasolini.com/post/sotto-il-segno-del-rimpianto-pier-paolo-pasolini-e-leonardo-sciascia-l-unità-1991), der die entsprechende Zeit persönlich miterlebt, ja -geprägt hatte, als Mitglied der Studentenbewegung, und ab 1969 als Protagonist der außerparlamentarischen Gruppierung Lotta Continua, mit der Pasolini auch zusammengearbeitet hatte (beispielsweise im Dokumentarfilm [12 Dicembre](https://www.youtube.com/watch?v=_nntE2jJ_KI) über die von der Rechten „inszenierten“ Attentate in Italien). In diesem 1991 für die Zeitung *L'Unità* veröffentlichten Essay, macht auch Sofri keinen Hehl aus seinem Überdruss über den postumen Umgang mit Pasolinis Gedicht *Die KPI an die Jugend!*: »Wenngleich man es kaum mehr sagen möchte, so wäre es doch wünschenswert, wenn man sich beim Zitieren von Pasolinis Poesie über die Polizisten, daran erinnern würde, wie sich die Dinge wirklich verhielten: und zwar ohne die Studierenden, die Polizisten und Pasolini in einem simplen, und überdies apokryphen Klischee einzuschließen«. Was Pasolinis Beziehung zu den Studierenden betrifft, so berichtigt Sofri, dass darin trotz der Spannungen, die tiefere Bedeutung, nicht von Paternalismus, sondern von »Brüderlichkeit« anklingt. Somit dokumentiere denn das Gedicht *Die KPI an die Jugend!* nicht ein Zerwürfnis, sondern vielmehr ein gleichzeitig »pädagogisches und agonales« Verhältnis, etwas zwischen »Herausforderung und dem Wunsch, anerkannt zu werden«. Oder aber, noch direkter: »ein Liebesantrag«.
 
-(Fabien Vitali; Übers. aus dem Italienischen F. V.)
+(Übers. aus dem Italienischen Fabien Vitali)
 
 ![Unter dem redaktionellen, von Pasolini nicht autorisierten Titel "Liebe Studenten, ich hasse Euch!" wurde das Gedicht "Die KPI an die Jugend!" von der Wochenzeitschrift "Espresso" zum ersten Mal veröffentlicht](/resources/uploads/pasolini_vi_odio.jpg)

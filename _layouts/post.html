@@ -9,30 +9,37 @@
     <div class="imgcontainer" style="background-image: url('/resources/images/{{ page.categories[0] }}.png')">
       <!-- <img class="bookimg" src="{{ page.backimage | relative_url }}" alt="{{ page.title }} image"> -->
     </div>
-    <div class="columnleft">
+    <div class="postcolumnleft">
     </div>
-    <div class="bookcontainer">
+    <div class="postbookcontainer">
       <div class="bookinfo">
-        <h1 class="pagetitle">{{ page.title }}</h1>
+        <h1 class="pagetitle posttitle"> {{ page.title }}</h1><br>
       </div>
       <div class="bookcontent">
-       {{ content }}
-     </div>
-     {% if post.pdf and post.pdf != "" %}
-        <a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a><br>
+        {% if page.author and page.author != "" %}
+        <em>{{page.author}}</em> – 
         {% endif %}
-        {% if post.audio and post.audio != "" %}
+      {% assign month = page.date | date: "%B" %}
+          {% assign german_month = site.translations.months[month] %}
+          <em>{{ page.date | date: "%d" }}. {{ german_month }} {{ page.date | date: "%Y" }}</em>
+          <br><br>
+       {{ content }}
+       {% if page.pdf and page.pdf != "" %}
+        <a href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdftitle }}</a><br>
+        {% endif %}
+        {% if page.audio and page.audio != "" %}
         <audio controls>
-          <source src="{{ post.audio | relative_url }}" type="audio/mpeg">
+          <source src="{{ page.audio | relative_url }}" type="audio/mpeg">
           Your browser does not support this audio element.
         </audio> 
         {% endif %}
-        {% if post.video and post.video != "" %}
+        {% if page.video and page.video != "" %}
         <video controls>
-          <source src="{{ post.video | relative_url }}" type="video/mp4">
+          <source src="{{ page.video | relative_url }}" type="video/mp4">
           Your browser does not support this video element.
         </video> 
         {% endif %}
+     </div>
       </div>
     </main>
     {% include footer.html %}

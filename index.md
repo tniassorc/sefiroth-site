@@ -12,6 +12,5 @@ kurztext: "*Sefirah* (סְפִירָה) ist ein Begriff aus der jüdischen Mysti
   hinaus, also *anders* zu erschließen."
 ---
 <p>Kern jeder <em>Sefirah</em> bilden kurze Texte, Textfragmente oder Bilder unterschiedlicher Interessenbereiche, die in einer paradoxalen Funktion der Abweichung und des Widerspruchs zu Gegenwartsdiskursen gelesen werden können. Integriert werden sie von kritischen Anregungen, die das antinomische Potenzial der Kerntexte erklären, aber auch vervielfachen sollen. In der kritischen Lektüre selbst wird eine Geste des Widerstands geltend gemacht. Einer immer stärker von Systemzwängen bestimmten Zeit, die alles nur noch in einer Beziehung der Koeffizienz des technischen und ökonomischen Wachstums begreifen will, stellt jede einzelne <em>Sefirah</em> das paradoxale Ereignis eines <em>Anderen</em> gegenüber: In ihr soll sich die unerwartete Vielfalt des  jeweiligen vergangenen Textes wie ein unheimlicher Raum eröffnen, in dem die Leser:innen in einen Prozess der Suche verwickelt werden, der sie als freie Wesen in Anspruch nimmt.</p>
-<br>
 <em>Die Welt stellt mir hinterlistige Fragen. Meine Wörter antworten ihr offenherzig mit Fragen. </em>
 (Rose Ausländer)

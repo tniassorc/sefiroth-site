@@ -3,6 +3,7 @@ layout: post
 title: "Marginalia 2: Zu einem Artikel von Francesco Cantaluccio"
 collapsible: false
 date: 2025-07-04T00:36:00
+author: Fabien Vitali
 pdf: /resources/uploads/cantaluccio_ripensando-pasolini_2015.pdf
 pdftitle: Cantaluccio, Ripensando Pasolini / PDF
 image: /resources/images/uploads/screenshot-2025-06-19-at-13.55.37.png
@@ -21,5 +22,3 @@ Cantaluccios stellenweise arg überhebliche Pasolini-Kritik soll hier nicht weit
      Cantaluccio lässt seine Anekdot sowie die darin sich aufnötigenden Fragen in der Schwebe. Es ist unklar, ob es sich um eine bewusste Entscheidung handelte oder er doch viel eher für sich beanspruchte, die Bedeutung der geschilderten Begebenheit erkläre sich von selbst. In Wirklichkeit bleibt sie wunderbar uneindeutig. Eine mögliche Interpretation wäre die folgende: Die Anekdote bestätigt, dass Pasolini gegenüber den Jugendlichen letztlich eben doch in einer Position »höhnischer« Überheblichkeit verharrte, die entsprechenden Versuche der Wiederannäherung somit opportunistische Zurschaustellungen waren (wie beispielsweise auch Pasquale Voza meint, vgl. Der Zeit widersprechen, S. 75)? Eine andere Interpretation hingegen lautet folgendermaßen: Das von Cantaluccio als »höhnisch« taxierte Lächeln ist eine mögliche, ja vielleicht auch nachvollziehbare Reaktion Pasolinis, ein Zeichen der Enttäuschung auf die verdächtige Selbstsicherheit der nachfolgenden Generationen und ihrer Diskurse gegenüber den von den realen und symbolischen Vätern gestellten Problemen. 
 
      Dass Cantaluccio in seinem ausschweifenden Porträt so breitbeinig auf Pasolinis Irrtümern beharrt, zu keinem Moment auf mögliche Fehleinschätzungen seiner selbst oder seiner Altersgenossen zu sprechen kommt, lässt vermuten, dass er selbst von der ersten Interpretation überzeugt ist, während die die zweite zutrifft. 
-
-(Fabien Vitali)

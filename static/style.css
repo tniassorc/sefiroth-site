@@ -237,6 +237,11 @@ footer {
 	max-width: 50rem;
 }
 
+.postcolumnleft {
+	width: 30%;
+	max-width: 50rem;
+}
+
 .seficontainer {
 	margin-top: 0;
 }
@@ -251,19 +256,24 @@ footer {
 	gap: 1rem;
 }
 
-.bookinfo {
+.postbookcontainer {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	padding: 1rem;
+	z-index: 1;
+	align-self: flex-start;
+	gap: 1rem;
+}
+
+.bookinfo, .homebookinfo {
 	position: sticky;
 	top: 0.3rem;
 	text-align: right;
 	flex-shrink: 0;
 }
 
-.bookcontent {
-	padding: 0.5rem;
-	background: #ebe6e2;
-}
-
-.pagetitle {
+.homepagetitle {
 	display: inline;
 	background: black;
 	color: white;
@@ -275,6 +285,23 @@ footer {
 	line-height: 1.6;
 	white-space: nowrap;
 	overflow: hidden;
+}
+
+.bookcontent {
+	padding: 0.5rem;
+	background: #ebe6e2;
+}
+
+.pagetitle {
+  font-weight: bold;
+  color: white;
+  line-height: 1.6;
+  background: none; /* let JS handle bars */
+  position: relative; /* ensures stacking context */
+  z-index: 1;
+  white-space: normal;
+  overflow-wrap: break-word;
+	hyphens: none;
 }
 
 .imgcontainer {
@@ -303,7 +330,7 @@ footer {
 }
 
 .post {
-	background-color: #d4cfcd;
+	background-color: #d5cac2;
 	padding: .7rem;
 	border-radius: .4rem;
 	font-family: agara, serif;
@@ -340,6 +367,7 @@ audio {
 
 .collapsible, .collapsibleh {
 	cursor: pointer;
+	padding-bottom: 0 !important;;
 }
 
 .active, .collapsible:hover {
@@ -349,6 +377,10 @@ audio {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
+}
+
+.ccontent p {
+	padding-top: 0.5rem;
 }
 
 .collapsiblex:after {
@@ -377,18 +409,61 @@ audio {
 	height: 30rem;
 }
 
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+#lightbox.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  cursor: auto;
+}
+
+#lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+  user-select: none;
+}
+
+
 @media screen and (max-width: 1024px){
 	.infobox .pagetitle {
 		font-size: 2.5rem;
+	}
+	
+	.bookinfo {
+		max-width: 50vw;
+		margin-left: 35%;
 	}
 	.spot {
 		filter: none;
 	}
 
-	.pagetitle {
-		padding-right: 1rem; /* Push background to the right */
-		margin-right: -1rem; /* Pull text back so it’s visually aligned */
-	}
 	.imgcontainer {
 		max-width: 100%;
 		mask-image: none;
@@ -399,8 +474,12 @@ audio {
 	.columnleft {
 		width: 30%;
 	}
+	
+  .postcolumnleft {
+		width: 20%;
+	}
 
-	.bookcontainer {
+	.bookcontainer, .postbookcontainer {
 		width: 100%;
 	}
 	
@@ -414,8 +493,15 @@ audio {
 		position: relative;
 	}
 	.bookinfo {
-		margin-bottom: 30%;
+		margin-bottom: 20%;
+		max-width: 100%;
+		margin-left: 0;
 	}
+	
+.homebookinfo {
+	margin-bottom: 20%;
+  }
+	
 	.idle-prompt {
 		text-align: center;
 	}
@@ -425,7 +511,7 @@ audio {
 	.footertext span {
 		padding-top: .1rem;
 	}
-	.columnleft {
+	.columnleft, .postcolumnleft {
 		display: none;
 	}
 	.sefiinfo {

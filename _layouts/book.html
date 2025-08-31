@@ -14,28 +14,28 @@
     </div>
     <div class="bookcontainer">
       <div class="bookinfo">
-        <h1 class="pagetitle"> {{ page.authors-short }}</h1><br>
+        <h1 class="pagetitle"> {{ page.authors-short }}</h1>
         <h1 class="pagetitle"> {{ page.title }} </h1>
       </div>
       <div class="bookcontent">
         {{ content }}
         {% if page.published and page.published != "" %}
-          <p><span>
+          <div>
             {% if page.ispublished %}
               <span>Erschienen: </span>
             {% else %}
               <span>Erscheint: </span>
             {% endif %}
             <em>{{ page.published }}</em>
-          </span></p>
+          </div>
         {% endif %}
         {% if page.authorstext and page.authorstext != "" %}
-          <span class="collapsibleh"><a>Autor:innen: <em>{{ page.authors }} </em></a></span><br>
+          <p class="collapsibleh"><a>Autor:innen: <em>{{ page.authors }} </em></a></p>
           <div class="ccontent">
             {{ page.authorstext | markdownify }}
           </div>
         {% else %}
-          <span>Autor:innen: <em>{{ page.authors }}</em></span><br>
+          <p>Autor:innen: <em>{{ page.authors }}</em></p>
         {% endif %}
         {% if page.vorschau-pdf and page.vorschau-pdf != "" %}
         <a href="{{ page.vorschau-pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Vorschau</a><br>
@@ -62,7 +62,7 @@
           <div class="ccontent">
             {{ post.content }}
             {% if post.pdf and post.pdf != "" %}
-              <a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a><br>
+              <p><a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a></p>
             {% endif %}
             {% if post.audio and post.audio != "" %}
               <audio controls>
@@ -89,7 +89,10 @@
       {% if post.categories contains category %}
         <div class="post">
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          {% assign month = post.date | date: "%B" %}
+           {% if post.author and post.author != "" %}
+        <em>{{post.author}}</em> – 
+        {% endif %}
+        {% assign month = post.date | date: "%B" %}
           {% assign german_month = site.translations.months[month] %}
           <em>{{ post.date | date: "%d" }}. {{ german_month }} {{ post.date | date: "%Y" }}</em>
           <br><br>
@@ -101,7 +104,7 @@
             <a href="{{ post.url | relative_url }}">Weiterlesen...</a>
           {% endif %}
           {% if post.pdf and post.pdf != "" %}
-            <a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a><br>
+            <p><br><a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a></p>
           {% endif %}
           {% if post.audio and post.audio != "" %}
             <audio controls>
