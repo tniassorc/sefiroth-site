@@ -13,7 +13,7 @@ Diese Seite wird derzeit gewartet und ist vorrübergehend nicht erreichbar.
     const user = window.netlifyIdentity.currentUser();
     if (user) {
       // Redirect logged-in users to main branch deploy preview
-      window.location.href = 'https://YOUR_MAIN_BRANCH_PREVIEW_URL.netlify.app';
+      window.location.href = 'https://main--sefiroth.netlify.app';
     }
   }
 </script>
