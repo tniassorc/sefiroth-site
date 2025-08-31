@@ -66,3 +66,5 @@ collections:
     output: true
 excerpt_separator: "<!--more-->"
 markdown: kramdown
+include:
+  - _redirects
