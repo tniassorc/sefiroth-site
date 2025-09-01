@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Nahkritik
-date: 2025-07-26T16:15:00
+date: 2025-09-01T17:57:00
 categories: book02
 authors: Maurice Blanchot / Shaul Setter
 authors-short: Blanchot/Setter
@@ -11,7 +11,48 @@ shorttext: '"Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, de
   israelische Philosoph Shaul Setter dem Krieg in Gaza nach dem Massaker der
   Hamas als einem unfassbaren Ereignis, das er als Symptom eines globalen
   Zusammenbruchs sieht.'
-published: Juli 2025
+ispublished: true
+published: August 2025
+authorstext: >-
+  Maurice Blanchot (1907-2003), Romanautor, Philosoph,
+
+  Literaturkritiker. Heute ist Blanchot vor allem bekannt für seine Essays
+
+  (u.a. zu Char, Sade, Kafka). Seine frühen Verbindungen zur
+
+  extremen und antisemitischen Rechten im Vichy-Frankreich stehen im
+
+  Kontrast zu seiner Freundschaft mit jüdischen Denkern wie Emmanuel Lévinas. Zur
+
+  Zeit des Algerienkriegs näherte er sich linken Positionen an, ohne dabei
+
+  seine geistige Alleinstellung je aufzugeben. Seine Reflexionen zu
+
+  den Abgründen von Sprache und Hermeneutik (in Le Pas
+
+  au-delà, 1973 und in L’écriture du désastre, 1980) gelten als
+
+  wegweisend für die Entwicklung dekonstruktivistischer Ansätze.  
+
+
+
+  Shaul Setter lehrt an der Bezalel Accademy of Arts
+
+  in Jerusalem und schreibt u.a. für Haaretz über das Verhältnis
+
+  von Ästhetik und Politik in emanzipatorischen wie auch reaktionären
+
+  Projekten zwischen Europa und dem Nahen Osten. 2021 erschien sein
+
+  Buch über Jean-Luc Godard, Jean Genet und den palästinensischen Kampf der
+
+  1970er–Jahren. Er ist Herausgeber von der bimestralen
+
+  Zeitschrift *Theory and Criticism*. Eine Sonderausgabe mit dem Titel
+
+  »Critique of War« (Sommer 2024) bildet die Grundlage seines hier erweiterten
+
+  Essays.
 vorschau-pdf: /resources/uploads/leseprobe_blanchot_setter_innen.pdf
 shoplink: ""
 image: /resources/images/cover-blanchot.jpg
