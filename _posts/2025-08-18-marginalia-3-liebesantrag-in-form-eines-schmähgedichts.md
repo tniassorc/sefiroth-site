@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Marginalia 3: "Liebesantrag" in Form eines Schmähgedichts'
+title: Marginalia 3
 categories: book01
 collapsible: false
 date: 2025-08-24T16:39:00
