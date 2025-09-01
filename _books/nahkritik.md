@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Nahkritik
-date: 2025-09-01T17:57:00
+date: 2025-09-01T17:58:00
 categories: book02
 authors: Maurice Blanchot / Shaul Setter
 authors-short: Blanchot/Setter
@@ -14,7 +14,7 @@ shorttext: '"Nacht, schlaflose weiße Nacht – so das Desaster, diese Nacht, de
 ispublished: true
 published: August 2025
 authorstext: >-
-  Maurice Blanchot (1907-2003), Romanautor, Philosoph,
+  *Maurice Blanchot* (1907-2003), Romanautor, Philosoph,
 
   Literaturkritiker. Heute ist Blanchot vor allem bekannt für seine Essays
 
@@ -35,8 +35,7 @@ authorstext: >-
   wegweisend für die Entwicklung dekonstruktivistischer Ansätze.  
 
 
-
-  Shaul Setter lehrt an der Bezalel Accademy of Arts
+  *Shaul Setter* lehrt an der Bezalel Accademy of Arts
 
   in Jerusalem und schreibt u.a. für Haaretz über das Verhältnis
 
@@ -54,7 +53,7 @@ authorstext: >-
 
   Essays.
 vorschau-pdf: /resources/uploads/leseprobe_blanchot_setter_innen.pdf
-shoplink: ""
+shoplink: https://www.galerie-der-abseitigen-kuenste.de/produkt/nahkritik?v=22
 image: /resources/images/cover-blanchot.jpg
 backimage: /resources/images/book02.png
 ---
