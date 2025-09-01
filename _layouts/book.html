@@ -103,7 +103,7 @@
             <br>
             <a href="{{ post.url | relative_url }}">Weiterlesen...</a>
           {% endif %}
-          {% if post.pdf and post.pdf != "" %}
+          <!-- {% if post.pdf and post.pdf != "" %}
             <p><br><a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a></p>
           {% endif %}
           {% if post.audio and post.audio != "" %}
@@ -117,7 +117,7 @@
               <source src="{{ post.video | relative_url }}" type="video/mp4">
               Your browser does not support this video element.
             </video> 
-          {% endif %}
+          {% endif %} -->
         </div>
       {% endif %}
     {% endfor %}
