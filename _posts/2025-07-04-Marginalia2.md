@@ -9,7 +9,9 @@ pdftitle: Cantaluccio, Ripensando Pasolini / PDF
 image: /resources/images/uploads/screenshot-2025-06-19-at-13.55.37.png
 categories: book01
 ---
-# Zu einem Artikel von Francesco Cantaluccio
+## Zu einem Artikel von Francesco Cantaluccio
+
+
 
 *\[D]ie Stimmung, aus der sich \[Pasolinis] Beitrag an jenem spätsommerlichen Abend in Florenz entfaltet \[lässt sich anhand des Texts zum Redebeitrag nur erahnen]. Sie prägt den auffällig offenen, nie introvertierten, den Diskussionspartnern und Gästen zugewandten Ausdruck, der auf gegenseitiges Vertrauen in den Dialog, in die Gemeinschaftlichkeit schließen lässt.* (Der Zeit widersprechen, S. 49). <!--more-->
 
