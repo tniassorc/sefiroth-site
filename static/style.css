@@ -238,7 +238,7 @@ footer {
 }
 
 .postcolumnleft {
-	width: 30%;
+	width: 35%;
 	max-width: 50rem;
 }
 
@@ -259,7 +259,7 @@ footer {
 .postbookcontainer {
 	display: flex;
 	flex-direction: column;
-	width: 60%;
+	width: 55%;
 	padding: 1rem;
 	z-index: 1;
 	align-self: flex-start;
@@ -290,6 +290,11 @@ footer {
 .bookcontent {
 	padding: 0.5rem;
 	background: #ebe6e2;
+  font-size: 1.1rem;
+}
+
+.bookcontent p {
+	line-height: 1.4;
 }
 
 .bookcontent a {
@@ -338,7 +343,7 @@ footer {
 	padding: .7rem;
 	border-radius: .4rem;
 	font-family: agara, serif;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
 .post p {

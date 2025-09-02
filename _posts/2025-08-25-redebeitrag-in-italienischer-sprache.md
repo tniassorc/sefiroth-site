@@ -4,7 +4,6 @@ title: Redebeitrag italienische Originalversion
 categories: book01
 collapsible: false
 date: 2025-09-01T19:46:00
-author: Fabien Vitali
 pdf: /resources/uploads/critica_marxista_2020.pdf
 pdftitle: Redebeitrag Pasolinis in it. Sprache (Critica Marxista, 2020)
 ---
