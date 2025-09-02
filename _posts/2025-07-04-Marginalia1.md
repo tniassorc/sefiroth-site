@@ -9,6 +9,7 @@ pdf: ""
 ---
 ## Pasolini auf der Festa dell'Unità, 6. September 1975
 
+\
 *Am Abend des 6. Septembers 1975 war Pasolini zusammen mit Cesare Luporini sowie Amos Cecchi, zwei marxistischen Philosophen, zu Gast am runden Tisch der traditionellen Festa dell’Unità im Park Le Cascine in Florenz.* (Der Zeit widersprechen, S. 47). <!--more-->
 
 \
