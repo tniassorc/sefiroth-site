@@ -11,7 +11,7 @@ pdftitle: '"Die KPI an die Jugend!" (aus: P. P. Pasolini, "Ketzererfahrungen",
 ---
 *Noch sein bis heute immer wieder einseitig diskutiertes Schmähgedicht,* Die KPI an die Jugend!*, in dem \[Pasolini] seine vermeintliche Verachtung gegenüber der bürgerlichen Papa-Söhnchen-Revolte verdichtet, birgt, wie Massimo Recalcati schrieb, eine einzigartige* pars construens*…* (Der Zeit widersprechen, S. 63). <!--more-->
 
-**"Liebesantrag" in Form eines Schmähgedichts**
+## **"Liebesantrag" in Form eines Schmähgedichts**
 
 In einer ausgezeichneten [Rekonstruktion der jahrzehntelangen Verfolgungen Pasolinis](https://www.internazionale.it/reportage/wu-ming-1/2015/10/29/pasolini-polizia-anniversario-morte) seitens der bürgerlichen Institutionen, verweist der Schriftsteller Wu Ming 1 auf die postume Beanspruchungen Pasolinis durch Rechte und Neofaschisten als der wohl perfidesten Form der Verleumdung, die letzterem je zu Teil wurde. Besonders im Fokus steht in diesem Zusammenhang der zutiefst unehrliche Umgang mit der oben zitierten Invektive, *Die KPI an die Jugend!* (die vollständige Fassung des Gedichts in dt. Sprache findet sich u. als PDF). 
 
