@@ -1,7 +1,7 @@
 (function() {
-  const STROKE = 8;
+  const STROKE = 6;
+
   function createLineBackgrounds() {
-    // Remove all old backgrounds first
     document.querySelectorAll('.pagetitle-bg').forEach(n => n.remove());
 
     document.querySelectorAll('.pagetitle').forEach(title => {
@@ -16,6 +16,8 @@
       const parentRect = parent.getBoundingClientRect();
 
       rects.forEach(r => {
+        if (r.width < 5 || r.height < 5) return;
+
         const bg = document.createElement('div');
         bg.className = 'pagetitle-bg';
 
@@ -34,12 +36,16 @@
   }
 
   function init() {
-    createLineBackgrounds();
+    requestAnimationFrame(() => {
+      createLineBackgrounds();
+    });
     window.addEventListener('resize', createLineBackgrounds);
   }
 
   if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(init).catch(init);
+    document.fonts.ready
+      .then(init)
+      .catch(() => setTimeout(init, 500));
   } else {
     window.addEventListener('load', init);
     setTimeout(init, 500);

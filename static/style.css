@@ -292,6 +292,10 @@ footer {
 	background: #ebe6e2;
 }
 
+.bookcontent a {
+	line-height: 1.6;
+}
+
 .pagetitle {
   font-weight: bold;
   color: white;
@@ -334,6 +338,7 @@ footer {
 	padding: .7rem;
 	border-radius: .4rem;
 	font-family: agara, serif;
+	font-size: 1.1rem;
 }
 
 .post p {
