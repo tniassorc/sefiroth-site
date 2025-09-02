@@ -4,7 +4,7 @@ title: Marginalia 1
 categories: book01
 collapsible: false
 date: 2025-07-01T16:35:00
-author: Fabien Vitali
+author: ""
 pdf: ""
 ---
 ## Pasolini auf der Festa dell'Unità, 6. September 1975
