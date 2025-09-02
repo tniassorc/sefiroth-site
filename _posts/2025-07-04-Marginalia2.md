@@ -9,11 +9,9 @@ pdftitle: Cantaluccio, Ripensando Pasolini / PDF
 image: /resources/images/uploads/screenshot-2025-06-19-at-13.55.37.png
 categories: book01
 ---
+# Zu einem Artikel von Francesco Cantaluccio
+
 *\[D]ie Stimmung, aus der sich \[Pasolinis] Beitrag an jenem spätsommerlichen Abend in Florenz entfaltet \[lässt sich anhand des Texts zum Redebeitrag nur erahnen]. Sie prägt den auffällig offenen, nie introvertierten, den Diskussionspartnern und Gästen zugewandten Ausdruck, der auf gegenseitiges Vertrauen in den Dialog, in die Gemeinschaftlichkeit schließen lässt.* (Der Zeit widersprechen, S. 49). <!--more-->
-
-# **Zu einem Artikel von Francesco Cantaluccio**
-
-
 
 Die hier, möglicherweise etwas verklärt, als idealtypisch beschriebene Situation, die Pasolinis einzigartige Bereitschaft zum Dialog hervorstreicht, wird indirekt bestätigt von einem [Bericht in einem Onlineartikel von Francesco Cantaluccio](https://www.ilpost.it/francescocataluccio/2015/10/30/pier-paolo-pasolini-2/) (*1955), Essayist und Herausgeber, der an jenen Abend vom 6. September in Florenz dem runden Tisch als einer der zahlreichen jungen Zuhörer:innen anwesend war. Cantaluccio nimmt jene erste und einzige persönliche Begegnung mit Pasolini zum Anlass für eine – vermutlich zum 40. Todestag verfassten – Rundumbetrachtung von dessen Werk und kulturkritischen Positionen. 
 
