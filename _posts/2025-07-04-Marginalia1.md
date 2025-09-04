@@ -13,6 +13,6 @@ pdf: ""
 \
 Zum hier evozierten Szenario existiert folgende Bildaufnahme. Sie zeigt einen Moment der Intervention des marxistischen Philiosophs, Cesare Luporini (1909-1993), auf die Pasolini während seines Beitrags wiederholt rekurriert (außen links im Bild, der Essayist Amos Cecchi). Die Aufnahme stammt von Rodrigo Pais und findet sich im gleichnamigen Archiv der Universität Bologna.
 
-
+<br>
 
 ![](/resources/uploads/483485660_1415978423156944_3908167189259680244_n.jpg)
