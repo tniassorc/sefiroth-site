@@ -225,13 +225,13 @@ footer {
 	top: 4rem;
 	align-self: start;
 	justify-self: left;
-	max-width: 30rem;
+	max-width: 50rem;
 	width: 30%;
 	transition: width 0.2s ease-out;
 }
 
 .sefiinfo.active {
-	width: 50%;
+	width: 100%;
 }
 
 .sefiinfo span {
@@ -331,6 +331,7 @@ footer {
 
 .bookcontent a {
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .singlelink {
@@ -505,6 +506,16 @@ audio {
 		margin-left: 35%;
 		background: none;
 	}
+	
+	.sefiinfo {
+		width: 70%;
+		font-size: 1.1rem;
+	}
+	
+	.sefiinfo.active {
+		max-width: 95%;
+	}
+	
 	.spot {
 		filter: none;
 	}
@@ -542,6 +553,12 @@ audio {
 		max-width: 100%;
 		margin-left: 0;
 	}
+	
+		.sefiinfo {
+		width: 95%;
+		font-size: 1rem;
+	}
+	
 	
 .homebookinfo {
 	margin-bottom: 20%;
