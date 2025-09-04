@@ -225,7 +225,7 @@ footer {
 	top: 4rem;
 	align-self: start;
 	justify-self: left;
-	max-width: 50rem;
+	max-width: 65rem;
 	min-width: 30%;
 	transition: width 0.2s ease-out;
 }
@@ -584,11 +584,5 @@ audio {
 	}
 	.seficontainer {
 		margin-top: 0;
-	}
-}
-
-@media screen and (max-height: 800px){
-	.sefiinfo {
-		max-width: 70rem;
 	}
 }
