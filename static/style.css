@@ -225,13 +225,12 @@ footer {
 	top: 4rem;
 	align-self: start;
 	justify-self: left;
-	max-width: 50rem;
-	width: 30%;
+	min-width: 30%;
 	transition: width 0.2s ease-out;
 }
 
 .sefiinfo.active {
-	width: 100%;
+	width: 100vw;
 }
 
 .sefiinfo span {
