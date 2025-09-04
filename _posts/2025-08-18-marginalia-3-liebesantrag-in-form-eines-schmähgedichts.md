@@ -9,9 +9,6 @@ pdf: /resources/uploads/die_kpi_an_die_jugend.pdf
 pdftitle: '"Die KPI an die Jugend!" (aus: P. P. Pasolini, "Ketzererfahrungen",
   Übers. Reimar Klein, Hanser, 1979)'
 ---
-## "Liebesantrag" in Form eines Schmähgedichts
-
-\
 *Noch sein bis heute immer wieder einseitig diskutiertes Schmähgedicht,* Die KPI an die Jugend!*, in dem \[Pasolini] seine vermeintliche Verachtung gegenüber der bürgerlichen Papa-Söhnchen-Revolte verdichtet, birgt, wie Massimo Recalcati schrieb, eine einzigartige* pars construens*…* (Der Zeit widersprechen, S. 63). <!--more-->
 
 \
