@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redebeitrag italienische Originalversion
+subtitle: 
 categories: book01
 collapsible: false
 date: 2025-09-04T07:29:00

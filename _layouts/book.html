@@ -9,8 +9,7 @@
     <div class="imgcontainer" style="background-image: url('{{ page.backimage | relative_url }}')">
       <!-- <img class="bookimg" src="{{ page.backimage | relative_url }}" alt="{{ page.title }} image"> -->
     </div>
-    <div class="columnleft">
-
+    <div class="columnleft"> 
     </div>
     <div class="bookcontainer">
       <div class="bookinfo">
@@ -27,30 +26,30 @@
               <span>Erscheint: </span>
             {% endif %}
             <em>{{ page.published }}</em>
-          </div>
+          </div><br>
         {% endif %}
         {% if page.authorstext and page.authorstext != "" %}
-          <p class="collapsibleh"><a>Autor:innen: <em>{{ page.authors }} </em></a></p>
+          <p class="collapsibleh"><a class="singlelink">Autor:innen: <em>{{ page.authors }} </em></a></p>
           <div class="ccontent">
             {{ page.authorstext | markdownify }}
           </div>
         {% else %}
-          <p>Autor:innen: <em>{{ page.authors }}</em></p>
+          <p class="singlelink"➜>Autor:innen: <em>{{ page.authors }}</em></p>
         {% endif %}
         {% if page.vorschau-pdf and page.vorschau-pdf != "" %}
-        <a href="{{ page.vorschau-pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Vorschau</a><br>
+        <a class="singlelink" href="{{ page.vorschau-pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Vorschau</a><br>
         {% endif %}
         {% if page.shoplink and page.shoplink != "" %}
-        <a href="{{ page.shoplink }}" target="_blank" rel="noopener noreferrer">Buch kaufen</a><br>
+        <a class="singlelink" href="{{ page.shoplink }}" target="_blank" rel="noopener noreferrer">Buch kaufen</a><br>
         {% endif %}
         {% if page.pdf1 and page.pdf1 != "" %}
-        <a href="{{ page.pdf1 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf1title }}</a><br>
+        <a class="singlelink" href="{{ page.pdf1 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf1title }}</a><br>
         {% endif %}
         {% if page.pdf2 and page.pdf2 != "" %}
-        <a href="{{ page.pdf2 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf2title }}</a><br>
+        <a class="singlelink" href="{{ page.pdf2 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf2title }}</a><br>
         {% endif %}
         {% if page.pdf3 and page.pdf3 != "" %}
-        <a href="{{ page.pdf3 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf3title }}</a><br>
+        <a class="singlelink" href="{{ page.pdf3 | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.pdf3title }}</a><br>
         {% endif %}
       </div>
             {%- for post in site.posts -%}
@@ -88,7 +87,7 @@
     {% for category in page.categories %}
       {% if post.categories contains category %}
         <div class="post">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <h3><a href="{{ post.url }}">{{ post.title }}{% if post.subtitle and post.subtitle != "" %}: {{ post.subtitle }}{% endif %}</a></h3>
            {% if post.author and post.author != "" %}
         <em>{{post.author}}</em> – 
         {% endif %}
@@ -101,7 +100,7 @@
           {% assign excerpt_paragraphs = post.excerpt | split: '<p>' | size %}
           {% if content_paragraphs > excerpt_paragraphs %}
             <br>
-            <a href="{{ post.url | relative_url }}">Weiterlesen...</a>
+            <a class="arrow" href="{{ post.url | relative_url }}">➜</a>
           {% endif %}
           <!-- {% if post.pdf and post.pdf != "" %}
             <p><br><a href="{{ post.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ post.pdftitle }}</a></p>

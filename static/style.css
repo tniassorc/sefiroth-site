@@ -40,7 +40,6 @@ main {
 	flex: 1;
 }
 
-
 * {
 	padding: 0;
 	margin: 0;
@@ -62,6 +61,17 @@ a:hover {
 
 h1 {
 	font-size: 3rem;
+}
+
+.arrow {
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.2s ease;
+}
+
+.arrow:hover {
+	transform: translateX(0.3rem);
+	color: black;
 }
 
 .container {
@@ -250,7 +260,9 @@ footer {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
+	max-width: 50rem;
 	padding: 1rem;
+	padding-top: 0rem;
 	z-index: 1;
 	align-self: flex-start;
 	gap: 1rem;
@@ -260,7 +272,9 @@ footer {
 	display: flex;
 	flex-direction: column;
 	width: 55%;
+	max-width: 50rem;
 	padding: 1rem;
+	padding-top: 0rem;
 	z-index: 1;
 	align-self: flex-start;
 	gap: 1rem;
@@ -268,9 +282,11 @@ footer {
 
 .bookinfo, .homebookinfo {
 	position: sticky;
-	top: 0.3rem;
+	top: 0;
+	padding-top: 0.3rem;
 	text-align: right;
 	flex-shrink: 0;
+	background: #ebe6e2;
 }
 
 .homepagetitle {
@@ -290,15 +306,15 @@ footer {
 .bookcontent {
 	padding: 0.5rem;
 	background: #ebe6e2;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .bookcontent p {
 	line-height: 1.4;
 }
 
-.bookcontent a {
-	line-height: 1.6;
+.singlelink {
+	line-height: 2;
 }
 
 .pagetitle {
@@ -366,9 +382,7 @@ h4 {
 .post img, .bookcontent img, video {
 	max-width: 100%;
 	max-height: 30rem;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: inline;
 }
 
 audio {
