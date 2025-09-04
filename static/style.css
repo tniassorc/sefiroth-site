@@ -587,7 +587,7 @@ audio {
 	}
 }
 
-@media screen and (max-height: 700px){
+@media screen and (max-height: 800px){
 	.sefiinfo {
 		max-width: 70rem;
 	}
