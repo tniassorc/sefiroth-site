@@ -225,6 +225,7 @@ footer {
 	top: 4rem;
 	align-self: start;
 	justify-self: left;
+	max-width: 50rem;
 	min-width: 30%;
 	transition: width 0.2s ease-out;
 }
@@ -321,7 +322,7 @@ footer {
 .bookcontent {
 	padding: 0.5rem;
 	background: #ebe6e2;
-  font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 .bookcontent p {
@@ -338,14 +339,14 @@ footer {
 }
 
 .pagetitle {
-  font-weight: bold;
-  color: white;
-  line-height: 1.6;
-  background: none; /* let JS handle bars */
-  position: relative; /* ensures stacking context */
-  z-index: 1;
-  white-space: normal;
-  overflow-wrap: break-word;
+	font-weight: bold;
+	color: white;
+	line-height: 1.6;
+	background: none; /* let JS handle bars */
+	position: relative; /* ensures stacking context */
+	z-index: 1;
+	white-space: normal;
+	overflow-wrap: break-word;
 	hyphens: none;
 }
 
@@ -454,44 +455,44 @@ audio {
 }
 
 #lightbox {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease;
-  z-index: 9999;
-  cursor: pointer;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease;
+	z-index: 9999;
+	cursor: pointer;
 }
 
 #lightbox.show {
-  opacity: 1;
-  visibility: visible;
+	opacity: 1;
+	visibility: visible;
 }
 
 #lightbox img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 4px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
-  cursor: auto;
+	max-width: 90%;
+	max-height: 90%;
+	border-radius: 4px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	cursor: auto;
 }
 
 #lightbox-close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 40px;
-  color: white;
-  cursor: pointer;
-  z-index: 10000;
-  user-select: none;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	font-size: 40px;
+	color: white;
+	cursor: pointer;
+	z-index: 10000;
+	user-select: none;
 }
 
 
@@ -530,7 +531,7 @@ audio {
 		width: 30%;
 	}
 	
-  .postcolumnleft {
+	.postcolumnleft {
 		width: 20%;
 	}
 
@@ -553,15 +554,15 @@ audio {
 		margin-left: 0;
 	}
 	
-		.sefiinfo {
+	.sefiinfo {
 		width: 95%;
 		font-size: 1rem;
 	}
 	
 	
-.homebookinfo {
-	margin-bottom: 20%;
-  }
+	.homebookinfo {
+		margin-bottom: 20%;
+	}
 	
 	.idle-prompt {
 		text-align: center;
@@ -583,5 +584,11 @@ audio {
 	}
 	.seficontainer {
 		margin-top: 0;
+	}
+}
+
+@media screen and (max-height: 700px){
+	.sefiinfo {
+		max-width: 70rem;
 	}
 }
