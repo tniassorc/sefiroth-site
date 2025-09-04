@@ -3,7 +3,7 @@ layout: post
 title: Marginalia 3
 categories: book01
 collapsible: false
-date: 2025-09-04T07:22:00
+date: 2025-09-04T07:28:00
 author: Fabien Vitali
 pdf: /resources/uploads/die_kpi_an_die_jugend.pdf
 pdftitle: '"Die KPI an die Jugend!" (aus: P. P. Pasolini, "Ketzererfahrungen",
