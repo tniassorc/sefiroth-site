@@ -63,6 +63,10 @@ h1 {
 	font-size: 3rem;
 }
 
+.arrow, .backarrow {
+	font-size: 1.5rem;
+}
+
 .arrow {
 	text-decoration: none;
 	display: inline-block;
@@ -71,6 +75,18 @@ h1 {
 
 .arrow:hover {
 	transform: translateX(0.3rem);
+	color: black;
+}
+
+.backarrow {
+	transform: rotate(180deg);
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.2s ease;
+}
+
+.backarrow:hover {
+	transform: translateX(-0.3rem) rotate(180deg);
 	color: black;
 }
 
@@ -313,6 +329,10 @@ footer {
 	line-height: 1.4;
 }
 
+.bookcontent a {
+	text-transform: uppercase;
+}
+
 .singlelink {
 	line-height: 2;
 }
@@ -483,6 +503,7 @@ audio {
 	.bookinfo {
 		max-width: 50vw;
 		margin-left: 35%;
+		background: none;
 	}
 	.spot {
 		filter: none;
