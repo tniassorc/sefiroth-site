@@ -10,7 +10,7 @@ date: 2025-09-10T09:53:00
 **um 19:00 Uhr
 im Vortragssaal der Staatsbibliothek der Universität Hamburg, 1. Stock**
 
-Filmvorführung und Reflexion zu der Frage nach den Auswirkungen des 7. Oktober und des Gaza-Kriegs mit Shaul Setter, Sebastian Scherer und Peter Ott.<!--more-->
+**Filmvorführung und Reflexion zu der Frage nach den Auswirkungen des 7. Oktober und des Gaza-Kriegs mit Shaul Setter, Sebastian Scherer und Peter Ott.**<!--more-->
 
 Zum Anlass der Veröffentlichung seines Essays in der Reihe *Sefiroth* konnten wir kurzfristig ein Treffen mit dem israelischen Philosoph Shaul Setter organisieren, der im Gespräch mit Sebastian Scheerer (Kriminologe und Sozialwissenschaftler) und Peter Ott (Hamburger Filmemacher) sich mit einigen dringenden Fragen über die Situation im Nahen Osten auseinandersetzen wird. 
 
