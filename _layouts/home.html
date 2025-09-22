@@ -45,8 +45,6 @@
     {% endfor %}
     <div class="sefiinfo bookcontent">        
       {{ page.kurztext | markdownify }}
-      <span class="collapsibleh"><a class="singlelink"><u>Mehr</u></a></span>
-      <div class="ccontent">{{ content }}</div>
       <span><a class="singlelink" href="{{ '/resources/uploads/manifesto.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Manifesto</a></span><br>
       <span><a class="singlelink" href="{{ '/reihe' | relative_url }}">Reihe</a></span>
     </div>
