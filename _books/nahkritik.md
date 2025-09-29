@@ -49,7 +49,7 @@ authorstext: >-
 
   Zeitschrift *Theory and Criticism*. Eine Sonderausgabe mit dem Titel
 
-  »Critique of War« (Sommer 2024) bildet die Grundlage seines hier erweiterten
+  [»Critique of War« (Sommer 2024)](https://www.vanleer.org.il/en/tac_posts/preface-issue-60/?srsltid=AfmBOoqUnQRGhak6ooWBln-Y2Xkq9GICyjfS0HCXAmrdUmn9axQhr9CJ) bildet die Grundlage seines hier erweiterten
 
   Essays.
 vorschau-pdf: /resources/uploads/leseprobe_blanchot_setter_innen.pdf
