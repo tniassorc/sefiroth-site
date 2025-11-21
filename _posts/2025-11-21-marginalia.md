@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Marginalia 4
-subtitle: "Dialoge mit "
+subtitle: Im Dialog mit den Anderen
 categories: book01
 collapsible: false
 date: now
