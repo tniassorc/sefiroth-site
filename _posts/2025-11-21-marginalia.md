@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Marginalia 4: Dialog mit den Anderen - Fabien Vitali im Gespräch mit
-  Maike Albath (DLF, 20. 11. 2025)"
+  Maike Albath (Deutschlandfunk, 20. 11. 2025)"
 subtitle: Dialog mit den Anderen
 categories: book01
 collapsible: true
