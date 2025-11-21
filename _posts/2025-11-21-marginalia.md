@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Marginalia
+title: Marginalia 4
 subtitle: "Dialoge mit "
-categories: Book001
+categories: book01
 collapsible: false
 date: now
 ---
