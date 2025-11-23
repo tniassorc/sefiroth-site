@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Marginalia 4: "
+title: Marginalia 4
 subtitle: "Dialog mit den Anderen - Fabien Vitali im Gespräch mit Maike Albath "
 categories: book01
 collapsible: false
