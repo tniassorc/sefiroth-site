@@ -14,4 +14,6 @@ Florenz, Spätsommer 1975. Pier Paolo Pasolini verteidigt seine Thesen zum Konsu
 
 In Kooperation mit Helle Panke e.V.
 
+[Zur Website des Brecht-Hauses.](https://lfbrecht.de/event/was-bedeutet-fuer-dich-widerstand-eine-pasolini-lektuere/)
+
 ![](/resources/uploads/photo_2026-11-23_17-32-42.jpg)
